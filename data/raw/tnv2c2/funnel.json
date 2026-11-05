@@ -1,0 +1,209 @@
+[
+ {
+  "d": "2026-10-30",
+  "mesin": "2.0",
+  "dipindai": 36,
+  "kandidat": 1,
+  "dicatat": 1,
+  "ditolak": {
+   "data-tidak-valid": 4,
+   "jauh-dari-entry": 25,
+   "ruang-target-sempit": 4,
+   "usang-tp-tercapai": 4,
+   "tanpa-pemicu": 8,
+   "skor-rendah": 1,
+   "usang-umur": 1
+  },
+  "btc": {
+   "tr": -1,
+   "td": 0,
+   "ret3d": -2.69
+  },
+  "proteksi": {
+   "level": "ok",
+   "alasan": []
+  },
+  "dicatat_detail": [
+   {
+    "s": "BCH",
+    "arah": "SHORT",
+    "skor": 75,
+    "grade": "A",
+    "umur": 1,
+    "pemicu": "mon"
+   }
+  ]
+ },
+ {
+  "d": "2026-10-31",
+  "mesin": "2.0",
+  "dipindai": 35,
+  "kandidat": 2,
+  "dicatat": 1,
+  "ditolak": {
+   "data-tidak-valid": 5,
+   "jauh-dari-entry": 20,
+   "ruang-target-sempit": 6,
+   "usang-tp-tercapai": 12,
+   "tanpa-pemicu": 8,
+   "skor-rendah": 3,
+   "usang-umur": 1,
+   "duplikat-aktif": 1
+  },
+  "btc": {
+   "tr": -1,
+   "td": 0,
+   "ret3d": -4.38
+  },
+  "proteksi": {
+   "level": "ok",
+   "alasan": []
+  },
+  "dicatat_detail": [
+   {
+    "s": "SUI",
+    "arah": "SHORT",
+    "skor": 82,
+    "grade": "A",
+    "umur": 2,
+    "pemicu": "mon"
+   }
+  ]
+ },
+ {
+  "d": "2026-11-02",
+  "mesin": "2.0",
+  "dipindai": 35,
+  "kandidat": 3,
+  "dicatat": 3,
+  "ditolak": {
+   "data-tidak-valid": 5,
+   "usang-umur": 17,
+   "jauh-dari-entry": 22,
+   "usang-tp-tercapai": 13,
+   "ruang-target-sempit": 5,
+   "tanpa-pemicu": 7,
+   "skor-rendah": 10,
+   "sl-lebar": 2,
+   "usang-sudah-berjalan": 1,
+   "likuiditas-rendah": 10
+  },
+  "btc": {
+   "tr": -1,
+   "td": 0,
+   "ret3d": 0.46
+  },
+  "proteksi": {
+   "level": "ok",
+   "alasan": []
+  },
+  "dicatat_detail": [
+   {
+    "s": "PEPE",
+    "arah": "SHORT",
+    "skor": 80,
+    "grade": "A",
+    "umur": 1,
+    "pemicu": "dd"
+   },
+   {
+    "s": "LINK",
+    "arah": "SHORT",
+    "skor": 74,
+    "grade": "B",
+    "umur": 1,
+    "pemicu": "mon"
+   },
+   {
+    "s": "AAVE",
+    "arah": "SHORT",
+    "skor": 70,
+    "grade": "B",
+    "umur": 1,
+    "pemicu": "mon"
+   }
+  ]
+ },
+ {
+  "d": "2026-11-03",
+  "mesin": "2.0",
+  "dipindai": 33,
+  "kandidat": 1,
+  "dicatat": 0,
+  "ditolak": {
+   "data-tidak-valid": 7,
+   "tanpa-pemicu": 17,
+   "ruang-target-sempit": 8,
+   "usang-umur": 5,
+   "jauh-dari-entry": 6,
+   "usang-tp-tercapai": 3,
+   "skor-rendah": 7,
+   "likuiditas-rendah": 3,
+   "melawan-btc": 1,
+   "duplikat-aktif": 1
+  },
+  "btc": {
+   "tr": -1,
+   "td": -1,
+   "ret3d": -0.71
+  },
+  "proteksi": {
+   "level": "ok",
+   "alasan": []
+  },
+  "dicatat_detail": []
+ },
+ {
+  "d": "2026-11-05",
+  "mesin": "2.0",
+  "dipindai": 36,
+  "kandidat": 5,
+  "dicatat": 3,
+  "ditolak": {
+   "data-tidak-valid": 4,
+   "jauh-dari-entry": 9,
+   "usang-tp-tercapai": 3,
+   "tanpa-pemicu": 19,
+   "skor-rendah": 5,
+   "sl-lebar": 1,
+   "ruang-target-sempit": 1,
+   "batas-portofolio": 1,
+   "duplikat-aktif": 1
+  },
+  "btc": {
+   "tr": 0,
+   "td": 0,
+   "ret3d": 2.74
+  },
+  "proteksi": {
+   "level": "ok",
+   "alasan": []
+  },
+  "dicatat_detail": [
+   {
+    "s": "ENA",
+    "arah": "SHORT",
+    "skor": 68,
+    "grade": "B",
+    "umur": 1,
+    "pemicu": "mon"
+   },
+   {
+    "s": "AVAX",
+    "arah": "SHORT",
+    "skor": 65,
+    "grade": "B",
+    "umur": 1,
+    "pemicu": "mon"
+   },
+   {
+    "s": "QQQB",
+    "arah": "LONG",
+    "skor": 60,
+    "grade": "B",
+    "umur": 1,
+    "pemicu": "dev"
+   }
+  ]
+ }
+]

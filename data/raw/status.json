@@ -1,0 +1,71 @@
+{
+ "generatedAt": "2026-11-05T09:34:03.515Z",
+ "mesin": {
+  "tn": {
+   "lastAttemptAt": "2026-11-05T09:34:03.515Z",
+   "aktif": true,
+   "changedAt": "2026-11-05T09:34:03.515Z",
+   "ok": true,
+   "error": null,
+   "fetchedAt": "2026-11-05T09:34:03.515Z",
+   "rows": 468,
+   "sha": "9fbc6bf203a13b8e"
+  },
+  "tnv2": {
+   "lastAttemptAt": "2026-11-05T09:34:03.515Z",
+   "aktif": true,
+   "changedAt": "2026-11-05T09:34:03.515Z",
+   "ok": true,
+   "error": null,
+   "fetchedAt": "2026-11-05T09:34:03.515Z",
+   "rows": 476,
+   "sha": "9e97b46c954faded"
+  },
+  "tnv2c2": {
+   "lastAttemptAt": "2026-11-05T09:34:03.515Z",
+   "aktif": true,
+   "changedAt": "2026-11-05T09:34:03.515Z",
+   "ok": true,
+   "error": null,
+   "fetchedAt": "2026-11-05T09:34:03.515Z",
+   "rows": 313,
+   "sha": "c06a23941b49498d"
+  },
+  "dseek": {
+   "lastAttemptAt": "2026-11-05T09:34:03.515Z",
+   "aktif": true,
+   "changedAt": "2026-11-05T09:34:03.515Z",
+   "ok": true,
+   "error": null,
+   "fetchedAt": "2026-11-05T09:34:03.515Z",
+   "rows": 5,
+   "sha": "e17e522b66524217"
+  },
+  "chatgpt": {
+   "lastAttemptAt": "2026-11-05T09:34:03.515Z",
+   "aktif": true,
+   "changedAt": "2026-11-05T09:34:03.515Z",
+   "ok": true,
+   "error": null,
+   "fetchedAt": "2026-11-05T09:34:03.515Z",
+   "rows": 436,
+   "sha": "06532a85e998042f"
+  },
+  "crypto": {
+   "lastAttemptAt": "2026-11-05T09:34:03.515Z",
+   "aktif": true,
+   "changedAt": "2026-11-05T09:34:03.515Z",
+   "ok": true,
+   "error": null,
+   "fetchedAt": "2026-11-05T09:34:03.515Z",
+   "rows": 348,
+   "sha": "bb463b7d896c226c"
+  },
+  "grox": {
+   "lastAttemptAt": "2026-11-05T09:34:03.515Z",
+   "aktif": false,
+   "ok": false,
+   "error": "tidak tersedia (lihat halaman Aturan)"
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "versi": 2,
+ "mulai": "2026-10-29T01:19:08.176Z",
+ "mulai_ms": 1793236748176,
+ "engine": "cdaa11430a4b55e8",
+ "agen": "Eliz v2",
+ "aturan": {
+  "hold_hari": 7,
+  "maks_sl_persen": 15,
+  "satu_order_aktif_per_koin": true,
+  "biaya": {
+   "fee_persen_per_sisi": 0.05,
+   "slip_persen": 0.05
+  },
+  "baseline_tp_kelipatan_risiko": 2
+ },
+ "syarat_evaluasi": {
+  "min_trade_terisi": 150,
+  "min_minggu_berbeda": 20
+ },
+ "kriteria_lulus": "Setelah KEDUA syarat evaluasi terpenuhi: batas bawah CI 95% (bootstrap per minggu) dari rata-rata R per trade terisi, setelah biaya, harus lebih dari 0. Selisih terhadap baseline MARKET per sinyal dilaporkan sebagai informasi nilai tambah logika, bukan syarat lulus.",
+ "hipotesis": [
+  "H1 (validitas): setup dengan symbol kosong/aneh, angka tidak terhingga, urutan entry/SL/TP salah, SL > 15% atau RR < 1,5 tidak pernah dicatat.",
+  "H2 (basi): setup yang harganya sudah menyentuh TP dalam 5 hari tertutup terakhir, atau pemicunya (sweep Monday/deviasi) lebih dari 2 hari lalu, memberi hasil lebih buruk daripada setup segar.",
+  "H3 (tren): setup melawan tren makro tanpa >= 2 pemicu independen memberi R/trade lebih buruk daripada setup searah tren.",
+  "H4 (BTC): altcoin yang berlawanan dengan tren makro BTC memberi R/trade lebih buruk (aturan Eliz \"BTC adalah gerbang\", dipakai simetris untuk long dan short).",
+  "H5 (eksekusi): entry limit lebih dari 3% dari harga scan lebih sering tidak terisi atau terisi di rezim berbeda; maksimal 5 sinyal baru per hari karena sinyal sehari saling berkorelasi.",
+  "Keputusan: v2 dianggap lebih baik dari v1 hanya bila v2 LULUS (CI 95% bawah R/trade > 0 setelah biaya pada >= 150 trade dan >= 20 minggu) dan R/trade v2 lebih tinggi dari v1 pada periode yang sama. Selain itu v2 tidak dipakai."
+ ],
+ "konfigurasi_gerbang": {
+  "versi": 2,
+  "maxSlPct": 15,
+  "minRR": 1.5,
+  "minQuoteVolUsd": 20000000,
+  "maxDistPct": 3,
+  "staleDays": 5,
+  "maxTriggerAgeDays": 2,
+  "counterTrendMinTriggers": 2,
+  "btcGate": true,
+  "maxSignalsPerScan": 5,
+  "maxSameSidePerScan": 4
+ },
+ "larangan": [
+  "Mengubah core.mjs, trade-sim.mjs, gate.mjs. Hash mesin berubah dan baris baru tidak dihitung; mulai protokol baru bila perlu (hapus file ini).",
+  "Mengubah syarat evaluasi atau kriteria setelah protokol dimulai.",
+  "Mengedit atau menghapus baris jurnal. Rantai hash akan menandainya.",
+  "Menilai hasil sebelum syarat evaluasi terpenuhi. Angka sebelum itu hanya boleh dibaca sebagai kemajuan, bukan bukti."
+ ]
+}
