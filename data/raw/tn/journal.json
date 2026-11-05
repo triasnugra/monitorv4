@@ -11588,13 +11588,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 315,
   "prev": "87c0addbdeae527b90da",
-  "h": "4e2044de8fb77c635216"
+  "h": "4e2044de8fb77c635216",
+  "tx": 1793898000000,
+  "bm": {
+   "e": 1.2393,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793707200000
+  },
+  "bi": {
+   "e": 1.2393,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  }
  },
  {
   "id": "2026-10-30|Aturan Eliz|BNB",
@@ -11657,13 +11670,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 318,
   "prev": "da3c109584c870f33040",
-  "h": "8d9e0938fdba56ef35b0"
+  "h": "8d9e0938fdba56ef35b0",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 0.8789,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793779200000
+  },
+  "bi": {
+   "e": 0.8789,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  }
  },
  {
   "id": "2026-10-30|Aturan Eliz|ENA",
@@ -11818,13 +11844,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 325,
   "prev": "910aa89692e502328ad5",
-  "h": "4a62ea503af35edf5e40"
+  "h": "4a62ea503af35edf5e40",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 77996.16,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 77996.16,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-10-30|Aturan Eliz|SOL",
@@ -11972,13 +12011,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 330,
   "prev": "aa9e4f5ca9769d0157ee",
-  "h": "ed54792a6fd1842ad4c1"
+  "h": "ed54792a6fd1842ad4c1",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 0.003998,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793462400000
+  },
+  "bi": {
+   "e": 0.003998,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  }
  },
  {
   "id": "2026-10-30|Aturan Eliz|TAO",
@@ -12672,13 +12724,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "Hari terakhir bulan. Penutupan bulanan 00:00 UTC.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 357,
   "prev": "735a7959d15c949d507f",
-  "h": "7f7ecf9e2e00d6a0d43a"
+  "h": "7f7ecf9e2e00d6a0d43a",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 0.8938,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  },
+  "bi": {
+   "e": 0.8938,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-10-31|Aturan Eliz|LTC",
@@ -12741,13 +12806,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Hari terakhir bulan. Penutupan bulanan 00:00 UTC.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 360,
   "prev": "8678885a3e718fe27c8d",
-  "h": "f0810f545d2287dd73b2"
+  "h": "f0810f545d2287dd73b2",
+  "tx": 1793890800000
  },
  {
   "id": "2026-10-31|Aturan Eliz|SOL",
@@ -12810,13 +12876,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Hari terakhir bulan. Penutupan bulanan 00:00 UTC.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 363,
   "prev": "19f8e352ddf730485ebf",
-  "h": "a7abe3101a74a6cb2b23"
+  "h": "a7abe3101a74a6cb2b23",
+  "tx": 1793898000000,
+  "bm": {
+   "e": 1.2434,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793707200000
+  },
+  "bi": {
+   "e": 1.2434,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  }
  },
  {
   "id": "2026-10-31|Aturan Eliz|LINK",
@@ -13020,13 +13099,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal",
   "alert": "Hari terakhir bulan. Penutupan bulanan 00:00 UTC.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 371,
   "prev": "01ef2e71b5e931d81158",
-  "h": "2fd0a771d06c9f9cdbf6"
+  "h": "2fd0a771d06c9f9cdbf6",
+  "tx": 1793890800000
  },
  {
   "id": "2026-10-31|Aturan Eliz|QNT",
@@ -13348,13 +13428,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 383,
   "prev": "5a0956469fd3563d44b8",
-  "h": "56eb37b8ffec148cb68f"
+  "h": "56eb37b8ffec148cb68f",
+  "tx": 1793890800000
  },
  {
   "id": "2026-11-02|Aturan Eliz|XAUT",
@@ -13509,13 +13590,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 390,
   "prev": "e07be16098be3a680a03",
-  "h": "1ff87221d571539535c3"
+  "h": "1ff87221d571539535c3",
+  "tx": 1793890800000
  },
  {
   "id": "2026-11-02|Aturan Eliz|LTC",
@@ -13555,13 +13637,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 392,
   "prev": "f500af644ec4ca05b318",
-  "h": "2635f1181c9fce1cd07e"
+  "h": "2635f1181c9fce1cd07e",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 78595.67,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 78595.67,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793757600000
+  }
  },
  {
   "id": "2026-11-02|Aturan Eliz|XRP",
@@ -13578,13 +13673,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 393,
   "prev": "2635f1181c9fce1cd07e",
-  "h": "2e77567aeaabfaac507a"
+  "h": "2e77567aeaabfaac507a",
+  "tx": 1793898000000,
+  "bm": {
+   "e": 1.2591,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793786400000
+  },
+  "bi": {
+   "e": 1.2591,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  }
  },
  {
   "id": "2026-11-02|Aturan Eliz|NEAR",
@@ -13696,13 +13804,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 397,
   "prev": "4ce5e4fbaa530be14f7d",
-  "h": "76471fc8cdda5e746a61"
+  "h": "76471fc8cdda5e746a61",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 0.9077,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 0.9077,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793638800000
+  }
  },
  {
   "id": "2026-11-02|Aturan Eliz|TRUMP",
@@ -14124,13 +14245,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 415,
   "prev": "41ff59c9a67eb101c54d",
-  "h": "3a9e732445b2b8226ee6"
+  "h": "3a9e732445b2b8226ee6",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 137.56,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793890800000
+  },
+  "bi": {
+   "e": 137.56,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793793600000
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|PEPE",
@@ -14428,13 +14562,26 @@
   "keyakinan": "",
   "alasan": "Fib 0.75 tren naik, OBV divergence, RSI divergence, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 427,
   "prev": "6448b0cf8cadc33f821f",
-  "h": "83ba68fb77413a03fbf2"
+  "h": "83ba68fb77413a03fbf2",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 0.004135,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 0.004135,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793768400000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|XAUT",
@@ -14711,13 +14858,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 437,
   "prev": "0a9b802a2ecf01467a88",
-  "h": "9e3c7290bd9b09413bba"
+  "h": "9e3c7290bd9b09413bba",
+  "tx": 1793893860000,
+  "bm": {
+   "e": 0.1693,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793768400000
+  },
+  "bi": {
+   "e": 0.1693,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793764800000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|LINK",
@@ -14757,13 +14917,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 439,
   "prev": "3e7abe3541612ea5cecd",
-  "h": "017cb2410dde3c9508bc"
+  "h": "017cb2410dde3c9508bc",
+  "tx": 1793890800000
  },
  {
   "id": "2026-11-04|Aturan Eliz|CRCLB",
@@ -15062,13 +15223,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 450,
   "prev": "a103ba2e253837eb543d",
-  "h": "fa04d490c0d7e02b0b73"
+  "h": "fa04d490c0d7e02b0b73",
+  "tx": 1793890800000,
+  "bm": {
+   "e": 0.07056,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  },
+  "bi": {
+   "e": 0.07056,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793775600000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|INJ",
