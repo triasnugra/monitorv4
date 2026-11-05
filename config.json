@@ -1,0 +1,23 @@
+{
+  "base": "https://triasnugra.github.io",
+  "biaya": { "fee_persen_per_sisi": 0.05, "slip_persen": 0.05 },
+  "stale_jam": 6,
+  "konsensus_jendela_jam": 24,
+  "fork_group": ["tn", "tnv2", "tnv2c2", "chatgpt"],
+  "binance_hosts": ["https://data-api.binance.vision", "https://api.binance.com", "https://api1.binance.com", "https://api2.binance.com"],
+  "mesin": [
+    { "id": "tn", "chain": "seal", "meta": ["forward-protocol.json", "forward-report.json"] },
+    { "id": "tnv2", "chain": "seal", "meta": ["forward-protocol.json", "forward-report.json", "forward-protocol-v2.json", "forward-report-v2.json", "gate-log.json"] },
+    { "id": "tnv2c2", "chain": "seal", "meta": ["forward-protocol.json", "forward-report.json", "funnel.json"] },
+    { "id": "dseek", "chain": "seal", "meta": ["forward-protocol.json", "forward-report.json"] },
+    { "id": "chatgpt", "chain": "seal", "meta": ["forward-protocol.json", "forward-report.json"] },
+    {
+      "id": "crypto", "chain": "crypto", "tanpa_hasil": true, "meta": ["scan-log.json"],
+      "syarat_cadangan": { "min_trade_terisi": 150, "min_minggu_berbeda": 20, "sumber": "docs/PROTOCOL.md bagian 6 di repo crypto (repo ini tidak punya forward-protocol.json)" }
+    },
+    {
+      "id": "grox", "chain": "none", "aktif": false, "meta": [],
+      "catatan": "Jurnal grox hanya ada di localStorage browser. Ubah aktif menjadi true setelah workflow extras/grox-journal.yml terpasang di repo grox dan data/journal.json terbit."
+    }
+  ]
+}

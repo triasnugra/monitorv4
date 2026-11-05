@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitor 7 Mesin</title>
+<meta name="description" content="Monitor statis yang menilai ulang sinyal 7 mesin analisis trading crypto dengan aturan seragam.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brandrow">
+      <h1>Monitor 7 Mesin</h1>
+      <div class="ctrls">
+        <label class="sel">Basis
+          <select id="basis" title="Basis perhitungan untuk Leaderboard, Equity, Breakdown">
+            <option value="protokol">Protokol (utama)</option>
+            <option value="semua">Semua baris</option>
+          </select>
+        </label>
+        <button id="theme" type="button" aria-label="Ganti tema">Tema</button>
+      </div>
+    </div>
+    <div id="fresh" class="fresh" aria-live="polite"></div>
+    <nav id="tabs" class="tabs" role="tablist">
+      <a href="#leaderboard">Leaderboard</a><a href="#protokol">Progres protokol</a><a href="#equity">Equity</a>
+      <a href="#konsensus">Konsensus</a><a href="#breakdown">Breakdown</a><a href="#sinyal">Sinyal</a>
+      <a href="#audit">Audit</a><a href="#aturan">Aturan</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="banner"></div>
+  <section id="leaderboard" class="pane"></section>
+  <section id="protokol" class="pane"></section>
+  <section id="equity" class="pane"></section>
+  <section id="konsensus" class="pane"></section>
+  <section id="breakdown" class="pane"></section>
+  <section id="sinyal" class="pane"></section>
+  <section id="audit" class="pane"></section>
+  <section id="aturan" class="pane">
+    <h2>Aturan</h2>
+    <p class="muted">Monitor ini hanya <b>mengukur</b>. Tidak mengubah mesin dan tidak menambah hipotesis atau varian. Semua metrik dihitung di browser dari <code>data/signals.json</code> dan <code>data/raw/*</code> sehingga bisa diaudit.</p>
+
+    <h3>Sumber dan alur data</h3>
+    <ul>
+      <li>GitHub Action terjadwal menarik <code>journal.json</code> tiap mesin ke <code>data/raw/&lt;mesin&gt;/</code>. Versi lama disalin ke <code>data/snapshots/</code> (satu per hari UTC, atau segera bila jumlah baris berkurang). Bila penarikan gagal, data lama dipertahankan dan mesin ditandai <b>basi</b>.</li>
+      <li>Setiap sinyal dinilai ulang dari candle Binance 1H (1m untuk kasus ambigu) dengan satu aturan seragam. Simbol Binance = <code>aset + USDT</code>, host sama dengan mesin (<code>data-api.binance.vision</code> lebih dulu).</li>
+    </ul>
+
+    <h3>Aturan grading (trade-sim.mjs dasar)</h3>
+    <p>Dipilih karena identik di tn, tnv2, chatgpt, dan crypto. Dua varian lain menambah aturan <i>manajemen order</i> milik mesin, bukan aturan pengukuran: dseek membatalkan order yang belum terisi setelah 72 jam, tnv2c2 membatalkan order bila harga menyentuh TP sebelum pernah menyentuh entry. Monitor tidak memakai keduanya, jadi baris dseek/tnv2c2 yang dibatalkan mesinnya bisa berstatus lain di monitor dan muncul di Audit (a).</p>
+    <ol>
+      <li>Order limit terisi bila harga menyentuh entry. Bila candle dibuka sudah di sisi menguntungkan, terisi di open.</li>
+      <li>Candle pengisi boleh menyentuh SL; bila ya, dihitung SL. TP di candle pengisi hanya dihitung bila terisi tepat di open.</li>
+      <li>Candle yang menyentuh SL dan TP: urutan ditentukan data 1 menit; tanpa data itu, SL didahulukan.</li>
+      <li>Candle yang memuat waktu sinyal tidak dipakai utuh; hanya lewat data 1 menit setelah waktu sinyal.</li>
+      <li>Lewat batas waktu (<code>due</code>): tidak terisi = 0R; terisi = dinilai di close candle terakhir (bukan TP).</li>
+      <li>Crypto: TP = <code>tp</code> (TP1 = <code>tps[0]</code>), level = level pertama kali terlihat (revisi di <code>rev</code> diabaikan). Baris ber-<code>mode: pasar</code> dinilai dengan aturan limit yang sama.</li>
+    </ol>
+
+    <h3>Status</h3>
+    <dl>
+      <dt>TP</dt><dd>Terisi, lalu menyentuh TP. R = RR rencana.</dd>
+      <dt>SL</dt><dd>Terisi, lalu menyentuh SL. R = -1.</dd>
+      <dt>KEDALUWARSA_TERISI</dt><dd>Terisi tetapi belum TP/SL saat due. R dinilai di close, bisa positif atau negatif. <b>Tidak pernah dicampur dengan TP.</b></dd>
+      <dt>TIDAK_TERISI</dt><dd>Entry tidak pernah tersentuh sampai due. R = 0, tidak dikenai biaya, tidak masuk win-rate.</dd>
+      <dt>OPEN</dt><dd>Belum selesai (belum due dan belum TP/SL), atau candle gagal diambil (lihat Audit).</dd>
+      <dt>NO_TRADE</dt><dd>Disaring mesin (hanya chatgpt). Tidak dinilai dan tidak dihitung sebagai sinyal.</dd>
+      <dt>TIDAK_VALID</dt><dd>Simbol kosong, angka tidak valid, urutan entry/SL/TP salah, atau Binance tidak punya candle untuk simbol itu. Tidak dihitung sebagai sinyal.</dd>
+    </dl>
+
+    <h3>Metrik</h3>
+    <ul>
+      <li><b>N sinyal</b> = semua selain NO_TRADE/TIDAK_VALID. <b>Fill-rate</b> = terisi ÷ (terisi + tidak terisi); OPEN tidak dihitung.</li>
+      <li><b>Win-rate (a)</b> = TP ÷ (TP+SL). <b>Win-rate (b)</b> = (TP + kedaluwarsa dengan R sesudah biaya &gt; 0) ÷ semua terisi. Win-rate hanya dari trade terisi. Interval = Wilson 95%.</li>
+      <li><b>Biaya</b> = fee <span data-cfg="fee"></span>% per sisi + slippage <span data-cfg="slip"></span>% = <span data-cfg="total"></span>% harga entry per trade terisi. R sesudah biaya = R − biaya% ÷ risiko%. (rumus sama dengan <code>forward-lib.mjs</code>)</li>
+      <li><b>Expectancy</b> = rata-rata R sesudah biaya per trade terisi. CI95 = bootstrap 5000× dengan minggu kalender (Senin UTC) sebagai unit acak, seed tetap.</li>
+      <li><b>Profit factor</b> dan <b>max drawdown</b> dari R sesudah biaya, urut waktu keluar.</li>
+      <li>Label <span class="badge warn">sampel kecil</span> bila trade terisi &lt; 30.</li>
+    </ul>
+
+    <h3>Dedupe dan independensi</h3>
+    <ul>
+      <li>Kunci dedupe: <code>aset + arah + t</code> per mesin. Jumlah duplikat yang dibuang ada di Audit (d).</li>
+      <li><b>Basis "Semua baris"</b> = semua baris setelah dedupe. <b>Basis "Protokol"</b> = meniru <code>pickSignals()</code> di forward-lib: baris tersegel, agen dan engine sesuai file protokol, setelah tanggal mulai, satu order aktif per koin. Hasil tetap dinilai ulang monitor. Mesin tanpa file protokol (crypto, grox) memakai semua baris.</li>
+      <li><b>Overlap fork:</b> tn, tnv2, tnv2c2, dan chatgpt berbagi baris identik (engine yang sama) sampai fork masing-masing berganti engine. Baris ini ditandai <i>kembar fork</i> dan <b>bukan bukti independen</b>. Pada Konsensus, semua baris kembar dihitung sebagai satu sumber.</li>
+    </ul>
+
+    <h3>Syarat penilaian</h3>
+    <p>Dibaca dari <code>forward-protocol*.json</code> tiap mesin (bukan di-hardcode). Mesin "belum layak dinilai" sampai trade terisi dan jumlah minggu memenuhi syarat; setelah itu lulus bila batas bawah CI95 expectancy sesudah biaya &gt; 0. Angka sebelum itu hanya kemajuan, bukan bukti.</p>
+
+    <h3>Keterbatasan</h3>
+    <ul>
+      <li><b>grox</b>: jurnalnya hanya di localStorage browser pemiliknya sehingga tidak bisa diambil. Ditandai "tidak tersedia". Opsi: pasang <code>extras/grox-journal.yml</code> di repo grox agar Action menulis <code>data/journal.json</code> dengan engine yang sama, lalu set <code>"aktif": true</code> untuk grox di <code>config.json</code>.</li>
+      <li><b>crypto</b> tidak punya hasil/R, jadi status_mesin kosong dan tidak ikut audit (a). Seluruh nilainya dari penilaian monitor. Due = 3 hari.</li>
+      <li>Aset saham/ETF tokenisasi (mis. NVDAB) dinilai bila Binance spot punya pasangan <code>&lt;aset&gt;USDT</code>; bila tidak, TIDAK_VALID.</li>
+      <li>Semua hasil bersifat teoretis berbasis candle Binance, bukan eksekusi nyata. Sampel masih sedikit minggu, jadi CI lebar.</li>
+    </ul>
+  </section>
+</main>
+<footer class="wrap muted small" id="foot"></footer>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+:root{
+  --bg:#0e1116;--panel:#161b22;--panel2:#1c232c;--line:#2a323d;--text:#e6edf3;--muted:#8b98a7;
+  --accent:#56b4e9;--good:#3fb27f;--bad:#e5645a;--warn:#e0a82e;--chip:#222b36;
+}
+:root[data-theme=light]{--bg:#f6f7f9;--panel:#fff;--panel2:#f0f2f5;--line:#d9dee5;--text:#1b2430;--muted:#5d6b7b;--accent:#0072b2;--good:#14804f;--bad:#c4372c;--warn:#9a6a00;--chip:#e9edf2}
+*{box-sizing:border-box}
+html{color-scheme:dark}:root[data-theme=light]{color-scheme:light}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+.top{background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:12px;flex-wrap:wrap}
+h1{font-size:18px;margin:0}h2{font-size:17px;margin:20px 0 8px}h3{font-size:14px;margin:18px 0 6px}
+.ctrls{display:flex;gap:8px;align-items:center}
+select,input,button{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font:inherit}
+button{cursor:pointer}button:hover{border-color:var(--accent)}
+.sel{display:flex;gap:6px;align-items:center;color:var(--muted)}
+.tabs{display:flex;gap:2px;overflow-x:auto;margin-top:8px;scrollbar-width:thin}
+.tabs a{padding:8px 12px;color:var(--muted);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+.tabs a.on{color:var(--text);border-color:var(--accent)}
+.fresh{display:flex;gap:6px;flex-wrap:wrap;padding:8px 0 0}
+.pane{display:none;padding-bottom:40px}.pane.on{display:block}
+.muted{color:var(--muted)}.small{font-size:12px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);margin:8px 0}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;vertical-align:top}
+th:first-child,td:first-child,td.l,th.l{text-align:left}
+th{color:var(--muted);font-weight:600;font-size:12px;position:sticky;top:0;background:var(--panel)}
+tr:last-child td{border-bottom:0}
+.n{color:var(--muted);font-size:11px;margin-left:4px}
+.ci{color:var(--muted);font-size:11px;display:block}
+.pos{color:var(--good)}.neg{color:var(--bad)}
+.badge{display:inline-block;padding:1px 7px;border-radius:99px;font-size:11px;background:var(--chip);color:var(--muted);border:1px solid var(--line)}
+.badge.warn{color:var(--warn);border-color:var(--warn)}.badge.bad{color:var(--bad);border-color:var(--bad)}.badge.good{color:var(--good);border-color:var(--good)}
+.chip{display:inline-flex;gap:6px;align-items:center;padding:3px 9px;border-radius:99px;background:var(--chip);border:1px solid var(--line);font-size:12px}
+.chip.stale{border-color:var(--warn);color:var(--warn)}.chip.fail{border-color:var(--bad);color:var(--bad)}
+.callout{border:1px solid var(--line);border-left:3px solid var(--warn);background:var(--panel);padding:10px 12px;border-radius:6px;margin:12px 0}
+.callout.bad{border-left-color:var(--bad)}.callout.info{border-left-color:var(--accent)}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px}
+.bar{height:8px;border-radius:99px;background:var(--chip);overflow:hidden;margin:4px 0 8px}
+.bar>i{display:block;height:100%;background:var(--accent)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.row label{display:flex;gap:6px;align-items:center}
+.chartbox{position:relative;height:420px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px}
+@media(max-width:600px){.chartbox{height:320px}th,td{padding:6px 8px}}
+code{background:var(--chip);padding:1px 5px;border-radius:4px;font-size:12px}
+dt{font-weight:600;margin-top:8px}dd{margin:0 0 0 14px;color:var(--muted)}
+.sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+footer{padding:20px 16px 40px}
