@@ -1,0 +1,53 @@
+name: Update monitor
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'   # tiap 30 menit
+  push:
+    branches: [main]
+    paths-ignore: ['data/**']  # perubahan kode/halaman memicu deploy ulang; commit data dari bot tidak memicu apa pun
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Tes logika (gagal = jangan terbitkan)
+        run: node test/test.mjs
+      - name: Tarik jurnal semua mesin
+        run: node scripts/fetch.mjs
+      - name: Nilai ulang dan normalisasi
+        run: node scripts/grade.mjs
+      - name: Commit data
+        run: |
+          git config user.name "monitor-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && { echo "tidak ada perubahan data"; exit 0; }
+          git commit -m "data: $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0; sleep $((i*5)); done
+          exit 1
+      - uses: actions/configure-pages@v5
+      - name: Siapkan situs
+        run: |
+          mkdir _site
+          cp -r index.html config.json assets data _site/
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.d.outputs.page_url }}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4
