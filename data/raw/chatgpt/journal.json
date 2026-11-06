@@ -10980,13 +10980,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 301,
   "prev": "f472765e9137c456df29",
-  "h": "80dc0b74b4cee312593c"
+  "h": "80dc0b74b4cee312593c",
+  "tx": 1793927814758,
+  "bm": {
+   "e": 54.43,
+   "h": "kedaluwarsa",
+   "R": 0.708,
+   "tx": 1793927814758
+  },
+  "bi": {
+   "e": 54.43,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-10-30|Aturan Eliz|AI",
@@ -11033,7 +11046,19 @@
   "seq": 303,
   "prev": "be690b3cd7980facc453",
   "h": "0b8de102a0d5c3c39ea8",
-  "tx": 1793890800000
+  "tx": 1793890800000,
+  "bm": {
+   "e": 77203.83,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  },
+  "bi": {
+   "e": 77203.83,
+   "h": "kedaluwarsa",
+   "R": -0.359,
+   "tx": 1793927814759
+  }
  },
  {
   "id": "2026-10-30|Aturan Eliz|SOL",
@@ -11293,13 +11318,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": -0.42,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 314,
   "prev": "a0edc769570dcb69aeaf",
-  "h": "ea88bf254c0ff994bc81"
+  "h": "ea88bf254c0ff994bc81",
+  "tx": 1793927814759,
+  "bm": {
+   "e": 3998.18,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793847600000
+  },
+  "bi": {
+   "e": 3998.18,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793386800000
+  }
  },
  {
   "id": "2026-10-30|Aturan Eliz|BCH",
@@ -11316,13 +11354,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": 0.26,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 315,
   "prev": "ea88bf254c0ff994bc81",
-  "h": "d02e87d72e713773b39d"
+  "h": "d02e87d72e713773b39d",
+  "tx": 1793927814759,
+  "bm": {
+   "e": 270.3,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793372400000
+  },
+  "bi": {
+   "e": 270.3,
+   "h": "kedaluwarsa",
+   "R": 0.402,
+   "tx": 1793927814759
+  }
  },
  {
   "id": "2026-10-30|Aturan Eliz|FET",
