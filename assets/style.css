@@ -2,21 +2,21 @@
   --bg:#0e1116;--panel:#161b22;--panel2:#1c232c;--line:#2a323d;--text:#e6edf3;--muted:#8b98a7;
   --accent:#56b4e9;--good:#3fb27f;--bad:#e5645a;--warn:#e0a82e;--chip:#222b36;
 }
-:root[data-theme=light]{--bg:#f6f7f9;--panel:#fff;--panel2:#f0f2f5;--line:#d9dee5;--text:#1b2430;--muted:#5d6b7b;--accent:#0072b2;--good:#14804f;--bad:#c4372c;--warn:#9a6a00;--chip:#e9edf2}
 *{box-sizing:border-box}
-html{color-scheme:dark}:root[data-theme=light]{color-scheme:light}
-body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+html{color-scheme:dark}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 .wrap{max-width:1200px;margin:0 auto;padding:0 16px}
-.top{background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
-.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:12px;flex-wrap:wrap}
+.top{background:var(--panel);padding-bottom:8px}
+.tabbar{background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:12px}
 h1{font-size:18px;margin:0}h2{font-size:17px;margin:20px 0 8px}h3{font-size:14px;margin:18px 0 6px}
-.ctrls{display:flex;gap:8px;align-items:center}
 select,input,button{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font:inherit}
 button{cursor:pointer}button:hover{border-color:var(--accent)}
 .sel{display:flex;gap:6px;align-items:center;color:var(--muted)}
-.tabs{display:flex;gap:2px;overflow-x:auto;margin-top:8px;scrollbar-width:thin}
-.tabs a{padding:8px 12px;color:var(--muted);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:thin}
+.tabs a{padding:10px 12px;color:var(--muted);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
 .tabs a.on{color:var(--text);border-color:var(--accent)}
+.freshbox{margin-top:8px}
+.freshbox summary{cursor:pointer;color:var(--muted);font-size:12px}
 .fresh{display:flex;gap:6px;flex-wrap:wrap;padding:8px 0 0}
 .pane{display:none;padding-bottom:40px}.pane.on{display:block}
 .muted{color:var(--muted)}.small{font-size:12px}

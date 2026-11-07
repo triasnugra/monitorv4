@@ -71,6 +71,9 @@ function renderFresh() {
     html += `<span class="chip ${!st?.ok ? 'fail' : stale ? 'stale' : ''}" title="${esc(st?.error || '')}">${stale ? '⚠ ' : ''}${esc(txt)}${stale ? ' basi' : ''}</span>`;
   }
   el.innerHTML = html;
+  const bad = S.cfg.mesin.filter(m => m.aktif !== false).filter(m => { const st = S.status.mesin?.[m.id], f = st?.fetchedAt ? Date.parse(st.fetchedAt) : null, s = srcTs(m.id); return !st?.ok || (Date.now() - f) / 36e5 > lim || (s && (Date.now() - s) / 36e5 > lim); }).length;
+  $('#freshsum').innerHTML = bad ? `⚠ Kesegaran data: <b>${bad} mesin basi</b> (ketuk untuk detail)` : 'Kesegaran data: semua segar (ketuk untuk detail)';
+  $('#freshbox').open = window.matchMedia('(min-width: 800px)').matches;
 }
 
 function renderBanner() {
@@ -307,8 +310,7 @@ function show() {
 }
 
 async function main() {
-  try { const t = localStorage.getItem('tema'); if (t) document.documentElement.dataset.theme = t; const b = localStorage.getItem('basis'); if (b) { S.basis = b; $('#basis').value = b; } } catch { /* abaikan */ }
-  $('#theme').onclick = () => { const t = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme = t; try { localStorage.setItem('tema', t); } catch { /* abaikan */ } if (location.hash === '#equity') renderEquity(); };
+  try { const b = localStorage.getItem('basis'); if (b) { S.basis = b; $('#basis').value = b; } } catch { /* abaikan */ }
   $('#basis').onchange = e => { S.basis = e.target.value; try { localStorage.setItem('basis', S.basis); } catch { /* abaikan */ } show(); };
   window.addEventListener('hashchange', show);
   const ok = await load();
