@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="id" data-theme="dark">
+<html lang="id">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,24 +13,28 @@
   <div class="wrap">
     <div class="brandrow">
       <h1>Monitor 7 Mesin</h1>
-      <div class="ctrls">
-        <label class="sel">Basis
-          <select id="basis" title="Basis perhitungan untuk Leaderboard, Equity, Breakdown">
-            <option value="protokol">Protokol (utama)</option>
-            <option value="semua">Semua baris</option>
-          </select>
-        </label>
-        <button id="theme" type="button" aria-label="Ganti tema">Tema</button>
-      </div>
+      <label class="sel">Basis
+        <select id="basis" title="Basis perhitungan untuk Leaderboard, Equity, Breakdown">
+          <option value="protokol">Protokol (utama)</option>
+          <option value="semua">Semua baris</option>
+        </select>
+      </label>
     </div>
-    <div id="fresh" class="fresh" aria-live="polite"></div>
+    <details id="freshbox" class="freshbox">
+      <summary id="freshsum">Kesegaran data</summary>
+      <div id="fresh" class="fresh" aria-live="polite"></div>
+    </details>
+  </div>
+</header>
+<div class="tabbar">
+  <div class="wrap">
     <nav id="tabs" class="tabs" role="tablist">
       <a href="#leaderboard">Leaderboard</a><a href="#protokol">Progres protokol</a><a href="#equity">Equity</a>
       <a href="#konsensus">Konsensus</a><a href="#breakdown">Breakdown</a><a href="#sinyal">Sinyal</a>
       <a href="#audit">Audit</a><a href="#aturan">Aturan</a>
     </nav>
   </div>
-</header>
+</div>
 
 <main class="wrap">
   <div id="banner"></div>
