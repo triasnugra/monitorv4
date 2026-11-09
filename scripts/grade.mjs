@@ -65,6 +65,35 @@ export function invalidReason(x) {
   return null;
 }
 
+// Buang analisis dobel dalam SATU mesin: aset+arah+entry+SL+TP identik dan selisih t <= 60 detik.
+// Penyebab nyata: tnv2 punya dua agen ("Aturan Eliz" dan "Eliz v2") yang mencatat setup sama beberapa
+// milidetik berbeda, sehingga kunci aset|arah|t persis tidak menangkapnya. Yang dipertahankan adalah baris
+// milik agen protokol aktif (preferAgen); bila tidak ada yang cocok, baris paling awal.
+export function dedupeKembar(rows, preferAgen = null, windowMs = 60000) {
+  const sorted = [...rows].sort((a, b) => a.t - b.t), kept = [];
+  const last = new Map(); // kunci harga -> indeks baris terakhir yang dipertahankan
+  let dibuang = 0;
+  for (const x of sorted) {
+    const k = [x.aset, x.arah, x.entry, x.sl, x.tp].join('|'), i = last.get(k);
+    if (i !== undefined && Number.isFinite(x.t) && x.t - kept[i].t <= windowMs) {
+      dibuang++;
+      if (preferAgen && x.agen === preferAgen && kept[i].agen !== preferAgen) kept[i] = x;
+      continue;
+    }
+    last.set(k, kept.push(x) - 1);
+  }
+  return { rows: kept, dibuang };
+}
+
+// Agen protokol aktif sebuah mesin = file forward-protocol*.json dengan mulai_ms terbaru.
+export function agenAktif(dir) {
+  if (!fs.existsSync(dir)) return null;
+  const ps = fs.readdirSync(dir).filter(f => /^forward-protocol.*\.json$/.test(f))
+    .map(f => { try { return JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); } catch { return null; } })
+    .filter(p => p && p.mulai_ms && p.agen);
+  return ps.sort((a, b) => b.mulai_ms - a.mulai_ms)[0]?.agen ?? null;
+}
+
 export const sigOf = x => sha([x.aset, x.arah, x.entry, x.sl, x.tp, x.t, x.due].join('|'));
 
 // ---------- penilaian ----------
@@ -98,11 +127,15 @@ async function main() {
     if (m.aktif === false || !fs.existsSync(f)) continue;
     const j = JSON.parse(fs.readFileSync(f, 'utf8')), seen = new Set();
     counts[m.id].baris_mesin = j.length;
+    const mine = [];
     for (const r of j) {
       const x = normalize(m, r), key = `${x.aset}|${x.arah}|${x.t}`;
       if (seen.has(key)) { counts[m.id].duplikat_dibuang++; continue; }
-      seen.add(key); rows.push(x); counts[m.id].baris_monitor++;
+      seen.add(key); mine.push(x);
     }
+    const dd = dedupeKembar(mine, agenAktif(path.join(RAW, m.id)));
+    counts[m.id].duplikat_dibuang += dd.dibuang;
+    for (const x of dd.rows) { rows.push(x); counts[m.id].baris_monitor++; }
   }
   // tandai baris kembar antar fork (bukan bukti independen)
   const byKey = new Map();
