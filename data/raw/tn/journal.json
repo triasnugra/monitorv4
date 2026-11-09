@@ -18108,7 +18108,19 @@
   "seq": 529,
   "prev": "e80016dec6cdcc1d4794",
   "h": "6c8b906d05dedd531a54",
-  "tx": 1794186000000
+  "tx": 1794186000000,
+  "bm": {
+   "e": 0.00000492,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794146400000
+  },
+  "bi": {
+   "e": 0.00000492,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794214800000
+  }
  },
  {
   "id": "2026-11-08|Aturan Eliz|ENA",
@@ -18539,13 +18551,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan beli melemah, sweep Monday High lalu reclaim, Wolf: breakout trendline gagal",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 548,
   "prev": "45a98ada3bdc30dba803",
-  "h": "42673570471095164a4c"
+  "h": "42673570471095164a4c",
+  "tx": 1794211200000
  },
  {
   "id": "2026-11-09|Aturan Eliz|LINK",
@@ -18815,13 +18828,14 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 560,
   "prev": "d66f48651bbf80a00288",
-  "h": "28dadf66e31b69d438ba"
+  "h": "28dadf66e31b69d438ba",
+  "tx": 1794195960000
  },
  {
   "id": "2026-11-09|Aturan Eliz|TRX",
