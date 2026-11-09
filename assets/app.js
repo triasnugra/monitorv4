@@ -295,7 +295,7 @@ function renderAudit() {
     ${tbl(['Kategori', 'Jumlah', 'Contoh id'], incRows)}
     <h3>(d) Selisih jumlah baris mesin vs monitor</h3>
     ${tbl(['Mesin', 'Baris di mesin', 'Duplikat dibuang', 'Baris di monitor', 'Bukan sinyal (NO_TRADE/tidak valid)', 'Tersegel di jurnal', 'n di laporan mesin', 'Catatan'], cntRows)}
-    <div class="muted small">Dedupe kunci aset+arah+t per mesin. Baris kembar antar fork <b>tidak</b> dibuang di sini (tiap mesin tetap punya barisnya) tetapi ditandai dan dikolaps di Konsensus/Breakdown "semua".</div>
+    <div class="muted small">Dedupe per mesin: kunci aset+arah+t, plus analisis identik (aset+arah+entry+SL+TP) yang dicatat dua agen dalam selisih ≤60 detik (mis. Aturan Eliz &amp; Eliz v2 di tnv2). Baris kembar antar fork <b>tidak</b> dibuang di sini (tiap mesin tetap punya barisnya) tetapi ditandai dan dikolaps di Konsensus/Breakdown "semua".</div>
     <h3>(e) Hasil "menunggu" yang sudah lewat due <span class="n">${late.length}</span></h3>
     ${tbl(['Mesin', 'id', 'Due (UTC)', 'Status mesin', 'Status monitor', 'Error'], lateRows)}`;
 }
