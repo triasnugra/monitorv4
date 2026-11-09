@@ -15080,13 +15080,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, breakdown ber-close, retest, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 412,
   "prev": "ffa46c1ab07c5f483a5a",
-  "h": "5a6b5b97460b28885ca9"
+  "h": "5a6b5b97460b28885ca9",
+  "tx": 1794195010545,
+  "bm": {
+   "e": 138.96,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793797200000
+  },
+  "bi": {
+   "e": 138.96,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793757600000
+  }
  },
  {
   "id": "2026-11-02|Aturan Eliz|CRCLB",
@@ -15103,13 +15116,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": 1.03,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 413,
   "prev": "5a6b5b97460b28885ca9",
-  "h": "b029184dd8231ed0ae01"
+  "h": "b029184dd8231ed0ae01",
+  "tx": 1794195010545,
+  "bm": {
+   "e": 74.3,
+   "h": "kedaluwarsa",
+   "R": 0.945,
+   "tx": 1794195010545
+  },
+  "bi": {
+   "e": 74.3,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|ETH",
@@ -17175,13 +17201,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 486,
   "prev": "aebe0704e1abcbe7f479",
-  "h": "95432c64f6cdfa01371b"
+  "h": "95432c64f6cdfa01371b",
+  "tx": 1794189600000
  },
  {
   "id": "2026-11-06|Aturan Eliz|LTC",
@@ -17773,13 +17800,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 512,
   "prev": "4ca429f850c0d718f775",
-  "h": "543fab53698690e2556a"
+  "h": "543fab53698690e2556a",
+  "tx": 1794189600000
  },
  {
   "id": "2026-11-07|Aturan Eliz|GOOGLB",
@@ -18095,13 +18123,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan beli melemah, sweep Monday High lalu reclaim, Wolf: breakout trendline gagal",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 526,
   "prev": "3283b5ff843509754c15",
-  "h": "f42ddfc8e451e4ff5386"
+  "h": "f42ddfc8e451e4ff5386",
+  "tx": 1794189300000
  },
  {
   "id": "2026-11-09|Aturan Eliz|BNB",
@@ -18440,13 +18469,14 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 541,
   "prev": "c8488bb032b4c59a5802",
-  "h": "9665a58dd1d9d40a44ed"
+  "h": "9665a58dd1d9d40a44ed",
+  "tx": 1794189600000
  },
  {
   "id": "2026-11-09|Aturan Eliz|AVAX",
@@ -18677,5 +18707,28 @@
   "seq": 551,
   "prev": "414d02a5ee2b0fcb576a",
   "h": "cfc85064b9445808d50e"
+ },
+ {
+  "id": "2026-11-09|Aturan Eliz|SPCXB",
+  "waktu": "2026-11-09 03:44 UTC",
+  "t": 1794195842770,
+  "due": 1794800642770,
+  "agen": "Aturan Eliz",
+  "aset": "SPCXB",
+  "arah": "SHORT",
+  "entry": 142.22,
+  "sl": 146.49,
+  "tp": 133.69,
+  "harga_awal": 134.98,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 552,
+  "prev": "cfc85064b9445808d50e",
+  "h": "0224c9956a1cb8d32c81"
  }
 ]

@@ -3103,5 +3103,19 @@
    "MELAWAN_TREN_TANPA_KONFLUENSI"
   ],
   "skor": 1
+ },
+ {
+  "id": "2026-11-09|Aturan Eliz|SPCXB",
+  "d": "2026-11-09",
+  "aset": "SPCXB",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI"
+  ],
+  "skor": 2
  }
 ]
