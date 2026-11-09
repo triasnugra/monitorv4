@@ -2,7 +2,7 @@
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import { gradeTrade, H1 } from '../scripts/trade-sim.mjs';
-import { invalidReason, normalize } from '../scripts/grade.mjs';
+import { invalidReason, normalize, dedupeKembar } from '../scripts/grade.mjs';
 import { wilson, bootCI, summarize, basisProtokol, konsensus, netR, costPct } from '../assets/stats.js';
 import { verifySeal, verifyCrypto } from '../assets/chain.js';
 
@@ -82,6 +82,16 @@ await ok('basisProtokol: satu order aktif per koin, abaikan engine lain & sebelu
   const rows = [r(T0, 'TP'), r(T0 + 1800e3, 'TP'), r(T0 + 7200e3, 'SL'), r(T0 + 14.4e6, 'OPEN'), r(T0 + 14.5e6, 'TP'), r(T0 - 1, 'TP'), r(T0 + 5, 'TP', { engine: 'Z' }), r(T0 + 6, 'TP', { sealed: false })];
   const k = basisProtokol(rows, P);
   assert.equal(k.kept.length, 3); assert.equal(k.skipped, 2);
+});
+await ok('dedupe: dua agen mencatat setup identik (selisih ms) jadi satu, pilih agen aktif', () => {
+  const r = (agen, t, ex = {}) => ({ mesin: 'tnv2', aset: 'SOL', arah: 'SHORT', entry: 95, sl: 99.083, tp: 86.834, agen, t, ...ex });
+  const d = dedupeKembar([r('Aturan Eliz', T0), r('Eliz v2', T0 + 3)], 'Eliz v2');
+  assert.equal(d.rows.length, 1); assert.equal(d.dibuang, 1); assert.equal(d.rows[0].agen, 'Eliz v2');
+  assert.equal(dedupeKembar([r('Eliz v2', T0), r('Aturan Eliz', T0 + 3)], 'Eliz v2').rows[0].agen, 'Eliz v2');
+  assert.equal(dedupeKembar([r('A', T0), r('B', T0 + 3)], null).rows[0].agen, 'A');
+  // bukan dobel: harga beda, atau jauh berselang (sinyal baru hari lain)
+  assert.equal(dedupeKembar([r('A', T0), r('A', T0 + 3, { tp: 80 })], 'A').rows.length, 2);
+  assert.equal(dedupeKembar([r('A', T0), r('A', T0 + 86400e3)], 'A').rows.length, 2);
 });
 await ok('konsensus: baris kembar fork = satu sumber', () => {
   const f = (m, t = T0, ex = {}) => mk('TP', 2, { mesin: m, aset: 'ETH', t, fork_bersama: ['tn', 'tnv2'], ...ex });
