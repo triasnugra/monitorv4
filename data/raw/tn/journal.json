@@ -14522,7 +14522,19 @@
   "seq": 401,
   "prev": "56aac7725d9d47b23637",
   "h": "eac65ae244fca3e26c01",
-  "tx": 1793919600000
+  "tx": 1793919600000,
+  "bm": {
+   "e": 0.07609,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794171600000
+  },
+  "bi": {
+   "e": 0.07609,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793761200000
+  }
  },
  {
   "id": "2026-11-02|Aturan Eliz|WLD",
@@ -14730,7 +14742,19 @@
   "seq": 410,
   "prev": "6dbdbaddef62ce67dbae",
   "h": "1049f80fe16709634244",
-  "tx": 1793804400000
+  "tx": 1793804400000,
+  "bm": {
+   "e": 2251.78,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  },
+  "bi": {
+   "e": 2251.78,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|TRX",
@@ -14935,13 +14959,26 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 418,
   "prev": "fc54e99c25ed810f5040",
-  "h": "ba072c73ce2ae00d2d72"
+  "h": "ba072c73ce2ae00d2d72",
+  "tx": 1794171600000,
+  "bm": {
+   "e": 11.06,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 11.06,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|DOGE",
@@ -15265,13 +15302,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 430,
   "prev": "d90b862a64cb2bc505ad",
-  "h": "01f9ff9806b81836d511"
+  "h": "01f9ff9806b81836d511",
+  "tx": 1794171600000,
+  "bm": {
+   "e": 91.14,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  },
+  "bi": {
+   "e": 91.14,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|BNB",
@@ -15501,13 +15551,26 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 438,
   "prev": "9e3c7290bd9b09413bba",
-  "h": "3e7abe3541612ea5cecd"
+  "h": "3e7abe3541612ea5cecd",
+  "tx": 1794171600000,
+  "bm": {
+   "e": 10.776,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  },
+  "bi": {
+   "e": 10.776,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|DOGE",
@@ -15668,13 +15731,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 443,
   "prev": "f057be530ca8f0274433",
-  "h": "9f45662bb6419ed0ecd4"
+  "h": "9f45662bb6419ed0ecd4",
+  "tx": 1794171600000,
+  "bm": {
+   "e": 76536.25,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 76536.25,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|ETH",
@@ -15691,13 +15767,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 444,
   "prev": "9f45662bb6419ed0ecd4",
-  "h": "0e21ea5fb5ed12093084"
+  "h": "0e21ea5fb5ed12093084",
+  "tx": 1794171600000,
+  "bm": {
+   "e": 2250.6,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 2250.6,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793779200000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|XRP",
@@ -15750,13 +15839,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 446,
   "prev": "5ce69001f735ea236fc3",
-  "h": "18ffde4dfeae2423e95e"
+  "h": "18ffde4dfeae2423e95e",
+  "tx": 1794171600000,
+  "bm": {
+   "e": 0.874,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 0.874,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793779200000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|AAVE",
