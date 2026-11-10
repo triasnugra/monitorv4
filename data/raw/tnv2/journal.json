@@ -15991,13 +15991,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 438,
   "prev": "0a9d65601e2e48149067",
-  "h": "f8882267af3a1b61f681"
+  "h": "f8882267af3a1b61f681",
+  "tx": 1794325320000,
+  "bm": {
+   "e": 1187.02,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793768400000
+  },
+  "bi": {
+   "e": 1187.02,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793764800000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|BNB",
@@ -16014,13 +16027,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 439,
   "prev": "f8882267af3a1b61f681",
-  "h": "6f421f0b0b11ba883e42"
+  "h": "6f421f0b0b11ba883e42",
+  "tx": 1794326400000
  },
  {
   "id": "2026-11-04|Aturan Eliz|PEPE",
@@ -16836,13 +16850,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, Wolf bullish: breakdown trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 464,
   "prev": "ace7471c30730f9d9c3f",
-  "h": "9e5c86cd2aae7cdb049d"
+  "h": "9e5c86cd2aae7cdb049d",
+  "tx": 1794325320000,
+  "bm": {
+   "e": 1309.41,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793937600000
+  },
+  "bi": {
+   "e": 1309.41,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793973600000
+  }
  },
  {
   "id": "2026-11-06|Aturan Eliz|XRP",
@@ -17454,7 +17481,19 @@
   "seq": 490,
   "prev": "71be8c238d822bdbd325",
   "h": "1633f9fce8f60c1da77a",
-  "tx": 1794240000000
+  "tx": 1794240000000,
+  "bm": {
+   "e": 0.0000049,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794232800000
+  },
+  "bi": {
+   "e": 0.0000049,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794322800000
+  }
  },
  {
   "id": "2026-11-06|Aturan Eliz|INJ",
@@ -17655,13 +17694,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 499,
   "prev": "f894587ed79a4c480951",
-  "h": "9a4a9165da3d003623f0"
+  "h": "9a4a9165da3d003623f0",
+  "tx": 1794325320000,
+  "bm": {
+   "e": 1347,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794027600000
+  },
+  "bi": {
+   "e": 1347,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794056400000
+  }
  },
  {
   "id": "2026-11-07|Aturan Eliz|BNB",
@@ -18267,13 +18319,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, Fib 0.75 tren naik, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 525,
   "prev": "18c8a2c93fe254c3103e",
-  "h": "3283b5ff843509754c15"
+  "h": "3283b5ff843509754c15",
+  "tx": 1794325320000,
+  "bm": {
+   "e": 1233.37,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794207600000
+  },
+  "bi": {
+   "e": 1233.37,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794243600000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|PEPE",
@@ -19190,13 +19255,14 @@
   "keyakinan": "",
   "alasan": "Wolf bullish: breakdown trendline gagal",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 564,
   "prev": "00314f462e606bf63bde",
-  "h": "e3629e99deb862ffcb72"
+  "h": "e3629e99deb862ffcb72",
+  "tx": 1794322800000
  },
  {
   "id": "2026-11-10|Aturan Eliz|INTCB",
@@ -19236,13 +19302,14 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 566,
   "prev": "fa1eb1a1238420cdecd8",
-  "h": "0ea09a5a1b94ec284afc"
+  "h": "0ea09a5a1b94ec284afc",
+  "tx": 1794326400000
  },
  {
   "id": "2026-11-10|Eliz v2|LINK",
