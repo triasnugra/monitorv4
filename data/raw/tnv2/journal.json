@@ -15188,13 +15188,26 @@
   "keyakinan": "",
   "alasan": "Three Top: 2 sentuhan lalu manipulasi di atas, breakdown ber-close, retest, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 415,
   "prev": "8c2dbd09e34bce5d2ec8",
-  "h": "8c2744b995e9714271db"
+  "h": "8c2744b995e9714271db",
+  "tx": 1794279617167,
+  "bm": {
+   "e": 0.3205,
+   "h": "kedaluwarsa",
+   "R": 0.167,
+   "tx": 1794279617167
+  },
+  "bi": {
+   "e": 0.3205,
+   "h": "kedaluwarsa",
+   "R": -0.167,
+   "tx": 1794279617167
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|ADA",
@@ -15211,13 +15224,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": 0.59,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 416,
   "prev": "8c2744b995e9714271db",
-  "h": "2e0381fedca6d5bd0612"
+  "h": "2e0381fedca6d5bd0612",
+  "tx": 1794279617167,
+  "bm": {
+   "e": 0.1872,
+   "h": "kedaluwarsa",
+   "R": 0.487,
+   "tx": 1794279617167
+  },
+  "bi": {
+   "e": 0.1872,
+   "h": "kedaluwarsa",
+   "R": -0.487,
+   "tx": 1794279617167
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|TRUMP",
@@ -15234,13 +15260,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 417,
   "prev": "2e0381fedca6d5bd0612",
-  "h": "69b13f8f85695690465b"
+  "h": "69b13f8f85695690465b",
+  "tx": 1794279617167,
+  "bm": {
+   "e": 1.597,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793811600000
+  },
+  "bi": {
+   "e": 1.597,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793793600000
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|SOL",
@@ -15257,13 +15296,26 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 418,
   "prev": "69b13f8f85695690465b",
-  "h": "0b9a3e10f7d66db9ed20"
+  "h": "0b9a3e10f7d66db9ed20",
+  "tx": 1794279617167,
+  "bm": {
+   "e": 91.73,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 91.73,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|SPCXB",
@@ -15359,7 +15411,19 @@
   "seq": 421,
   "prev": "fb47217c04be2f4e9d32",
   "h": "1a37577d82627416e2a8",
-  "tx": 1793840400000
+  "tx": 1793840400000,
+  "bm": {
+   "e": 3935.72,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793815200000
+  },
+  "bi": {
+   "e": 3935.72,
+   "h": "kedaluwarsa",
+   "R": 1.358,
+   "tx": 1794279617168
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|DOGE",
@@ -15376,13 +15440,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": 0.7,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 422,
   "prev": "1a37577d82627416e2a8",
-  "h": "fe9954aec0ebfa37d9f8"
+  "h": "fe9954aec0ebfa37d9f8",
+  "tx": 1794279617168,
+  "bm": {
+   "e": 0.07385,
+   "h": "kedaluwarsa",
+   "R": 0.568,
+   "tx": 1794279617168
+  },
+  "bi": {
+   "e": 0.07385,
+   "h": "kedaluwarsa",
+   "R": -0.568,
+   "tx": 1794279617168
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|LINK",
@@ -15471,13 +15548,26 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 425,
   "prev": "62ac144a9c167144e011",
-  "h": "c53e8eb9ace3be047702"
+  "h": "c53e8eb9ace3be047702",
+  "tx": 1794279617168,
+  "bm": {
+   "e": 0.0638,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794128400000
+  },
+  "bi": {
+   "e": 0.0638,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|AVAX",
@@ -15501,7 +15591,19 @@
   "seq": 426,
   "prev": "c53e8eb9ace3be047702",
   "h": "f4139a8edf11fa65024e",
-  "tx": 1793804400000
+  "tx": 1793804400000,
+  "bm": {
+   "e": 8.318,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 8.318,
+   "h": "kedaluwarsa",
+   "R": 0.39,
+   "tx": 1794279617168
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|CELO",
@@ -15518,13 +15620,26 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 427,
   "prev": "f4139a8edf11fa65024e",
-  "h": "1fe0acbe3faaccb7fe53"
+  "h": "1fe0acbe3faaccb7fe53",
+  "tx": 1794279617168,
+  "bm": {
+   "e": 0.07157,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  },
+  "bi": {
+   "e": 0.07157,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|TAO",
@@ -15541,13 +15656,26 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 428,
   "prev": "1fe0acbe3faaccb7fe53",
-  "h": "c5b2d37f9b7d0a8175bc"
+  "h": "c5b2d37f9b7d0a8175bc",
+  "tx": 1794279617168,
+  "bm": {
+   "e": 222.1,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793804400000
+  },
+  "bi": {
+   "e": 222.1,
+   "h": "kedaluwarsa",
+   "R": -0.052,
+   "tx": 1794279617168
+  }
  },
  {
   "id": "2026-11-03|Aturan Eliz|XRP",
@@ -15672,13 +15800,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": 0.7,
   "engine": "cdaa11430a4b55e8",
   "fwd": 1,
   "seq": 432,
   "prev": "b607faa5a24a7195a87b",
-  "h": "3598bc86545ab2651c6e"
+  "h": "3598bc86545ab2651c6e",
+  "tx": 1794279617169,
+  "bm": {
+   "e": 0.07385,
+   "h": "kedaluwarsa",
+   "R": 0.568,
+   "tx": 1794279617169
+  },
+  "bi": {
+   "e": 0.07385,
+   "h": "kedaluwarsa",
+   "R": -0.568,
+   "tx": 1794279617169
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|TRX",
@@ -17208,7 +17349,19 @@
   "seq": 486,
   "prev": "aebe0704e1abcbe7f479",
   "h": "95432c64f6cdfa01371b",
-  "tx": 1794189600000
+  "tx": 1794189600000,
+  "bm": {
+   "e": 0.1645,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794186000000
+  },
+  "bi": {
+   "e": 0.1645,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794225600000
+  }
  },
  {
   "id": "2026-11-06|Aturan Eliz|LTC",
@@ -17294,13 +17447,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 490,
   "prev": "71be8c238d822bdbd325",
-  "h": "1633f9fce8f60c1da77a"
+  "h": "1633f9fce8f60c1da77a",
+  "tx": 1794240000000
  },
  {
   "id": "2026-11-06|Aturan Eliz|INJ",
@@ -17807,7 +17961,19 @@
   "seq": 512,
   "prev": "4ca429f850c0d718f775",
   "h": "543fab53698690e2556a",
-  "tx": 1794189600000
+  "tx": 1794189600000,
+  "bm": {
+   "e": 0.1645,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794186000000
+  },
+  "bi": {
+   "e": 0.1645,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794225600000
+  }
  },
  {
   "id": "2026-11-07|Aturan Eliz|GOOGLB",
@@ -17962,13 +18128,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 519,
   "prev": "15946ad67884c8495028",
-  "h": "03d6199e59b3ab30037f"
+  "h": "03d6199e59b3ab30037f",
+  "tx": 1794240000000
  },
  {
   "id": "2026-11-07|Aturan Eliz|ONE",
@@ -18130,7 +18297,19 @@
   "seq": 526,
   "prev": "3283b5ff843509754c15",
   "h": "f42ddfc8e451e4ff5386",
-  "tx": 1794189300000
+  "tx": 1794189300000,
+  "bm": {
+   "e": 0.00000507,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794214800000
+  },
+  "bi": {
+   "e": 0.00000507,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794240000000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|BNB",
@@ -18476,7 +18655,19 @@
   "seq": 541,
   "prev": "c8488bb032b4c59a5802",
   "h": "9665a58dd1d9d40a44ed",
-  "tx": 1794189600000
+  "tx": 1794189600000,
+  "bm": {
+   "e": 0.1702,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794211200000
+  },
+  "bi": {
+   "e": 0.1702,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794225600000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|AVAX",
@@ -18730,5 +18921,373 @@
   "seq": 552,
   "prev": "cfc85064b9445808d50e",
   "h": "0224c9956a1cb8d32c81"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|BNB",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224652,
+  "due": 1794889024652,
+  "agen": "Aturan Eliz",
+  "aset": "BNB",
+  "arah": "LONG",
+  "entry": 680,
+  "sl": 659.6,
+  "tp": 720.8,
+  "harga_awal": 691.43,
+  "keyakinan": "",
+  "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah, Wolf bullish: breakdown trendline gagal, OBV divergence",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 553,
+  "prev": "0224c9956a1cb8d32c81",
+  "h": "da2581bdf73c40d80ffe"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|UNI",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "UNI",
+  "arah": "LONG",
+  "entry": 6.8249,
+  "sl": 6.5541,
+  "tp": 7.3664,
+  "harga_awal": 6.985,
+  "keyakinan": "",
+  "alasan": "Wolf bullish: breakdown trendline gagal, Fib 0.75 tren naik, searah tren",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 554,
+  "prev": "da2581bdf73c40d80ffe",
+  "h": "587e5fb346aca9d3282e"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|ETH",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "ETH",
+  "arah": "SHORT",
+  "entry": 2174.1,
+  "sl": 2449.3,
+  "tp": 1623.7,
+  "harga_awal": 2135.23,
+  "keyakinan": "",
+  "alasan": "breakdown ber-close, retest, searah tren",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 555,
+  "prev": "587e5fb346aca9d3282e",
+  "h": "ef031ba2fd595321acbc"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|LINK",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "LINK",
+  "arah": "SHORT",
+  "entry": 10.827,
+  "sl": 11.709,
+  "tp": 9.061,
+  "harga_awal": 10.662,
+  "keyakinan": "",
+  "alasan": "Wolf: breakout trendline gagal, searah tren",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 556,
+  "prev": "ef031ba2fd595321acbc",
+  "h": "1ac55efb102998cd0ecd"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|DOGE",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "DOGE",
+  "arah": "SHORT",
+  "entry": 0.0722,
+  "sl": 0.077847,
+  "tp": 0.060905,
+  "harga_awal": 0.07006,
+  "keyakinan": "",
+  "alasan": "breakdown ber-close, retest, searah tren",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 557,
+  "prev": "1ac55efb102998cd0ecd",
+  "h": "2ac0e603a72518612ae8"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|ADA",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "ADA",
+  "arah": "SHORT",
+  "entry": 0.182,
+  "sl": 0.2006,
+  "tp": 0.1448,
+  "harga_awal": 0.1774,
+  "keyakinan": "",
+  "alasan": "breakdown ber-close, retest, searah tren",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 558,
+  "prev": "2ac0e603a72518612ae8",
+  "h": "cbe0ed5e53152bdbc23e"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|SKHYB",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "SKHYB",
+  "arah": "LONG",
+  "entry": 127.59,
+  "sl": 119.73,
+  "tp": 143.31,
+  "harga_awal": 134.65,
+  "keyakinan": "",
+  "alasan": "deviasi bawah lalu recovery, RSI divergence",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 559,
+  "prev": "cbe0ed5e53152bdbc23e",
+  "h": "5af24a80972a03488345"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|LTC",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "LTC",
+  "arah": "LONG",
+  "entry": 50.2,
+  "sl": 48.694,
+  "tp": 53.212,
+  "harga_awal": 51.41,
+  "keyakinan": "",
+  "alasan": "deviasi bawah lalu recovery, OBV divergence",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 560,
+  "prev": "5af24a80972a03488345",
+  "h": "d8aabaa79050cb3ad43f"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|BTC",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "BTC",
+  "arah": "LONG",
+  "entry": 74968,
+  "sl": 72719,
+  "tp": 79466,
+  "harga_awal": 75368.41,
+  "keyakinan": "",
+  "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 561,
+  "prev": "d8aabaa79050cb3ad43f",
+  "h": "ede3226e577bf80626d1"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|PEPE",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "PEPE",
+  "arah": "LONG",
+  "entry": 0.000005035,
+  "sl": 0.0000046068,
+  "tp": 0.0000058913,
+  "harga_awal": 0.00000513,
+  "keyakinan": "",
+  "alasan": "Wolf bullish: breakdown trendline gagal",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 562,
+  "prev": "ede3226e577bf80626d1",
+  "h": "6f8042476cf3b700b7c7"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|SPCXB",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "SPCXB",
+  "arah": "LONG",
+  "entry": 129.87,
+  "sl": 119.95,
+  "tp": 149.72,
+  "harga_awal": 142.48,
+  "keyakinan": "",
+  "alasan": "deviasi bawah lalu recovery",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 563,
+  "prev": "6f8042476cf3b700b7c7",
+  "h": "00314f462e606bf63bde"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|AAVE",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224653,
+  "due": 1794889024653,
+  "agen": "Aturan Eliz",
+  "aset": "AAVE",
+  "arah": "LONG",
+  "entry": 128.48,
+  "sl": 121.85,
+  "tp": 141.76,
+  "harga_awal": 131.65,
+  "keyakinan": "",
+  "alasan": "Wolf bullish: breakdown trendline gagal",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 564,
+  "prev": "00314f462e606bf63bde",
+  "h": "e3629e99deb862ffcb72"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|INTCB",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224654,
+  "due": 1794889024654,
+  "agen": "Aturan Eliz",
+  "aset": "INTCB",
+  "arah": "LONG",
+  "entry": 56.72,
+  "sl": 50.168,
+  "tp": 69.824,
+  "harga_awal": 59.75,
+  "keyakinan": "",
+  "alasan": "deviasi bawah lalu recovery",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 565,
+  "prev": "e3629e99deb862ffcb72",
+  "h": "fa1eb1a1238420cdecd8"
+ },
+ {
+  "id": "2026-11-10|Aturan Eliz|MSTRB",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224654,
+  "due": 1794889024654,
+  "agen": "Aturan Eliz",
+  "aset": "MSTRB",
+  "arah": "LONG",
+  "entry": 123.46,
+  "sl": 119.76,
+  "tp": 130.87,
+  "harga_awal": 126.75,
+  "keyakinan": "",
+  "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 566,
+  "prev": "fa1eb1a1238420cdecd8",
+  "h": "0ea09a5a1b94ec284afc"
+ },
+ {
+  "id": "2026-11-10|Eliz v2|LINK",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224655,
+  "due": 1794889024655,
+  "agen": "Eliz v2",
+  "aset": "LINK",
+  "arah": "SHORT",
+  "entry": 10.827,
+  "sl": 11.709,
+  "tp": 9.061,
+  "harga_awal": 10.662,
+  "keyakinan": "",
+  "alasan": "Wolf: breakout trendline gagal, searah tren",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "cdaa11430a4b55e8",
+  "fwd": 1,
+  "seq": 567,
+  "prev": "0ea09a5a1b94ec284afc",
+  "h": "109523ebd339d7e162c6"
+ },
+ {
+  "id": "2026-11-10|Eliz v2|ETH",
+  "waktu": "2026-11-10 04:17 UTC",
+  "t": 1794284224655,
+  "due": 1794889024655,
+  "agen": "Eliz v2",
+  "aset": "ETH",
+  "arah": "SHORT",
+  "entry": 2174.1,
+  "sl": 2449.3,
+  "tp": 1623.7,
+  "harga_awal": 2135.23,
+  "keyakinan": "",
+  "alasan": "breakdown ber-close, retest, searah tren",
+  "alert": "",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "cdaa11430a4b55e8",
+  "fwd": 1,
+  "seq": 568,
+  "prev": "109523ebd339d7e162c6",
+  "h": "16d9a30f125851f43b51"
  }
 ]

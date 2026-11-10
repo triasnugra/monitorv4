@@ -1,9 +1,9 @@
 {
- "dibuat": "2026-11-09T11:51:11.248Z",
+ "dibuat": "2026-11-10T04:17:04.903Z",
  "chain": {
   "ok": true,
-  "n": 552,
-  "head": "0224c9956a1cb8d32c81",
+  "n": 568,
+  "head": "16d9a30f125851f43b51",
   "errors": []
  },
  "protocol": {
@@ -15,9 +15,9 @@
  "locked": true,
  "peek": false,
  "counts": {
-  "tercatat_sesuai_protokol": 8,
+  "tercatat_sesuai_protokol": 10,
   "selesai": 8,
-  "menunggu": 0,
+  "menunggu": 2,
   "terisi": 8,
   "minggu_berbeda": 2,
   "diabaikan_mesin_lain": 0,
