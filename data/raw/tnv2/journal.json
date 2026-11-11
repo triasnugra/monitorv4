@@ -17031,13 +17031,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 468,
   "prev": "571285f86e9e737517e5",
-  "h": "838e500efa2c5d2a6c8c"
+  "h": "838e500efa2c5d2a6c8c",
+  "tx": 1794384000000,
+  "bm": {
+   "e": 127.51,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793973600000
+  },
+  "bi": {
+   "e": 127.51,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794013200000
+  }
  },
  {
   "id": "2026-11-06|Aturan Eliz|LINK",
@@ -17829,13 +17842,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 501,
   "prev": "65bba5ca5e46a4d8fd7b",
-  "h": "f26fda7f55a6bf6e51b8"
+  "h": "f26fda7f55a6bf6e51b8",
+  "tx": 1794384000000,
+  "bm": {
+   "e": 136.1,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794232800000
+  },
+  "bi": {
+   "e": 136.1,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794322800000
+  }
  },
  {
   "id": "2026-11-07|Aturan Eliz|DOGE",
@@ -19055,13 +19081,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 552,
   "prev": "cfc85064b9445808d50e",
-  "h": "0224c9956a1cb8d32c81"
+  "h": "0224c9956a1cb8d32c81",
+  "tx": 1794384000000,
+  "bm": {
+   "e": 138.08,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794232800000
+  },
+  "bi": {
+   "e": 138.08,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794207600000
+  }
  },
  {
   "id": "2026-11-10|Aturan Eliz|BNB",
@@ -19108,7 +19147,19 @@
   "seq": 554,
   "prev": "da2581bdf73c40d80ffe",
   "h": "587e5fb346aca9d3282e",
-  "tx": 1794376800000
+  "tx": 1794376800000,
+  "bm": {
+   "e": 6.924,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794330000000
+  },
+  "bi": {
+   "e": 6.924,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794380400000
+  }
  },
  {
   "id": "2026-11-10|Aturan Eliz|ETH",
