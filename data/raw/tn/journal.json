@@ -15584,13 +15584,26 @@
   "keyakinan": "",
   "alasan": "retest zona demand kuat (2+ sentuhan, searah tren), Fib 0.75 tren naik, RSI divergence, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": -0.46,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 426,
   "prev": "4c730e1d62a54b09e2f0",
-  "h": "6448b0cf8cadc33f821f"
+  "h": "6448b0cf8cadc33f821f",
+  "tx": 1794369463155,
+  "bm": {
+   "e": 0.3216,
+   "h": "kedaluwarsa",
+   "R": -0.435,
+   "tx": 1794369463155
+  },
+  "bi": {
+   "e": 0.3216,
+   "h": "kedaluwarsa",
+   "R": 0.435,
+   "tx": 1794369463155
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|PUMP",
@@ -15650,7 +15663,19 @@
   "seq": 428,
   "prev": "83ba68fb77413a03fbf2",
   "h": "3d599a8563a392b7252a",
-  "tx": 1793836800000
+  "tx": 1793836800000,
+  "bm": {
+   "e": 3932.06,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793808000000
+  },
+  "bi": {
+   "e": 3932.06,
+   "h": "kedaluwarsa",
+   "R": 0.867,
+   "tx": 1794369463156
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|NVDAB",
@@ -15746,7 +15771,19 @@
   "seq": 431,
   "prev": "01f9ff9806b81836d511",
   "h": "3b9e1ea3b6f0cce6992f",
-  "tx": 1794326400000
+  "tx": 1794326400000,
+  "bm": {
+   "e": 686.49,
+   "h": "kedaluwarsa",
+   "R": -0.23,
+   "tx": 1794369463156
+  },
+  "bi": {
+   "e": 686.49,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|ZEC",
@@ -15835,13 +15872,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": -0.58,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 434,
   "prev": "1f0a100aacfcee70f28f",
-  "h": "307ea285ba26e914026a"
+  "h": "307ea285ba26e914026a",
+  "tx": 1794369463156,
+  "bm": {
+   "e": 132.96,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  },
+  "bi": {
+   "e": 132.96,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793887200000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|UNI",
@@ -16290,13 +16340,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": -0.19,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 447,
   "prev": "18ffde4dfeae2423e95e",
-  "h": "d13ddd78f3dba6f4312a"
+  "h": "d13ddd78f3dba6f4312a",
+  "tx": 1794369463158,
+  "bm": {
+   "e": 125.11,
+   "h": "kedaluwarsa",
+   "R": -0.081,
+   "tx": 1794369463158
+  },
+  "bi": {
+   "e": 125.11,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793804400000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|HOT",
@@ -16313,13 +16376,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 448,
   "prev": "d13ddd78f3dba6f4312a",
-  "h": "fd8a91de77be5047169c"
+  "h": "fd8a91de77be5047169c",
+  "tx": 1794369463158,
+  "bm": {
+   "e": 0.000466,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793764800000
+  },
+  "bi": {
+   "e": 0.000466,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793764800000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|WLD",
@@ -18067,13 +18143,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, Fib 0.75 tren naik, searah tren",
   "alert": "Menjelang penutupan weekly (Senin 00:00 UTC).",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 518,
   "prev": "4fbff8b6040ae3bfea9f",
-  "h": "70358401e123c8e2e120"
+  "h": "70358401e123c8e2e120",
+  "tx": 1794376800000
  },
  {
   "id": "2026-11-08|Aturan Eliz|TRX",
@@ -19433,13 +19510,14 @@
   "keyakinan": "",
   "alasan": "Wolf bullish: breakdown trendline gagal, Fib 0.75 tren naik, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 574,
   "prev": "601715b097a335a3513c",
-  "h": "f7ec212ef7a31c213fc9"
+  "h": "f7ec212ef7a31c213fc9",
+  "tx": 1794376800000
  },
  {
   "id": "2026-11-10|Aturan Eliz|ETH",

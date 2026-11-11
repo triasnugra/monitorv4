@@ -13511,13 +13511,26 @@
   "keyakinan": "",
   "alasan": "retest zona demand kuat (2+ sentuhan, searah tren), Fib 0.75 tren naik, RSI divergence, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": -0.39,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 389,
   "prev": "16a3e18b5b6ad21215b9",
-  "h": "b80d5c4d088902347e87"
+  "h": "b80d5c4d088902347e87",
+  "tx": 1794365416549,
+  "bm": {
+   "e": 0.3225,
+   "h": "kedaluwarsa",
+   "R": -0.466,
+   "tx": 1794365416549
+  },
+  "bi": {
+   "e": 0.3225,
+   "h": "kedaluwarsa",
+   "R": 0.466,
+   "tx": 1794365416549
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|PUMP",
@@ -13577,7 +13590,19 @@
   "seq": 391,
   "prev": "fc85e6d27620096607c4",
   "h": "80a60c9fd2fd1ed913d9",
-  "tx": 1793836800000
+  "tx": 1793836800000,
+  "bm": {
+   "e": 3935.22,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793811600000
+  },
+  "bi": {
+   "e": 3935.22,
+   "h": "kedaluwarsa",
+   "R": 0.865,
+   "tx": 1794365416549
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|NVDAB",
@@ -13732,7 +13757,19 @@
   "seq": 396,
   "prev": "1abc3b4633f7e4f98620",
   "h": "ccec158889b00d206ae7",
-  "tx": 1794326400000
+  "tx": 1794326400000,
+  "bm": {
+   "e": 690.27,
+   "h": "kedaluwarsa",
+   "R": -0.442,
+   "tx": 1794365416550
+  },
+  "bi": {
+   "e": 690.27,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|UNI",
@@ -13785,13 +13822,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": -0.52,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 398,
   "prev": "c70b84511c46337f6115",
-  "h": "508e84619ea4c17d1b18"
+  "h": "508e84619ea4c17d1b18",
+  "tx": 1794365416550,
+  "bm": {
+   "e": 134.49,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793800800000
+  },
+  "bi": {
+   "e": 134.49,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793793600000
+  }
  },
  {
   "id": "2026-11-04|Aturan Eliz|ENA",
@@ -15817,13 +15867,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, Fib 0.75 tren naik, searah tren",
   "alert": "Menjelang penutupan weekly (Senin 00:00 UTC).",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 479,
   "prev": "dc634737697bcde84d3d",
-  "h": "cde5008ed00769948511"
+  "h": "cde5008ed00769948511",
+  "tx": 1794376800000
  },
  {
   "id": "2026-11-08|Aturan Eliz|TRX",
@@ -16950,13 +17001,14 @@
   "keyakinan": "",
   "alasan": "Wolf bullish: breakdown trendline gagal, Fib 0.75 tren naik, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 526,
   "prev": "e6abcb9077a4034baca6",
-  "h": "7247a0ea6a96e898d50e"
+  "h": "7247a0ea6a96e898d50e",
+  "tx": 1794376800000
  },
  {
   "id": "2026-11-10|Aturan Eliz|ETH",
