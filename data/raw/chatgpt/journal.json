@@ -15788,7 +15788,19 @@
   "seq": 473,
   "prev": "7ded2c37dae9667de7ae",
   "h": "58c73a653a6402fb8941",
-  "tx": 1794409200000
+  "tx": 1794409200000,
+  "bm": {
+   "e": 223.6,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  },
+  "bi": {
+   "e": 223.6,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794481200000
+  }
  },
  {
   "id": "2026-11-07|Aturan Eliz|LTC",
@@ -17043,13 +17055,14 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah, Wolf bullish: breakdown trendline gagal, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 525,
   "prev": "3b5fddad5c9b57a7b897",
-  "h": "e6abcb9077a4034baca6"
+  "h": "e6abcb9077a4034baca6",
+  "tx": 1794484800000
  },
  {
   "id": "2026-11-10|Aturan Eliz|UNI",
@@ -17217,13 +17230,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 532,
   "prev": "cd5bbf6dd49a29732ecb",
-  "h": "2adc27727bd811790741"
+  "h": "2adc27727bd811790741",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-12|Aturan Eliz|PEPE",
@@ -17286,13 +17300,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 535,
   "prev": "7d454617a0d4c22490ca",
-  "h": "cc4463033a6f42f9a5d7"
+  "h": "cc4463033a6f42f9a5d7",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-12|Aturan Eliz|BTC",
@@ -17493,13 +17508,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 544,
   "prev": "fb7b3660ee67f8e590cf",
-  "h": "06b81eb01dc2af427c38"
+  "h": "06b81eb01dc2af427c38",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-12|Aturan Eliz|ARB",

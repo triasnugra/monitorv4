@@ -19142,13 +19142,14 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah, Wolf bullish: breakdown trendline gagal, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 553,
   "prev": "0224c9956a1cb8d32c81",
-  "h": "da2581bdf73c40d80ffe"
+  "h": "da2581bdf73c40d80ffe",
+  "tx": 1794484800000
  },
  {
   "id": "2026-11-10|Aturan Eliz|UNI",
@@ -19317,13 +19318,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 560,
   "prev": "5af24a80972a03488345",
-  "h": "d8aabaa79050cb3ad43f"
+  "h": "d8aabaa79050cb3ad43f",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-10|Aturan Eliz|BTC",
@@ -19340,13 +19342,14 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 561,
   "prev": "d8aabaa79050cb3ad43f",
-  "h": "ede3226e577bf80626d1"
+  "h": "ede3226e577bf80626d1",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-10|Aturan Eliz|PEPE",
@@ -19609,13 +19612,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 571,
   "prev": "8b73b52e773fd42358a9",
-  "h": "9a66e3323f3d87cefecc"
+  "h": "9a66e3323f3d87cefecc",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-12|Aturan Eliz|BTC",
@@ -19816,13 +19820,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 580,
   "prev": "a712a310babfd8472291",
-  "h": "3ec28af17e8e48f1fb89"
+  "h": "3ec28af17e8e48f1fb89",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-12|Aturan Eliz|ARB",

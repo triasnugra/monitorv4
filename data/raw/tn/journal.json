@@ -17955,7 +17955,19 @@
   "seq": 509,
   "prev": "b22245fd6745f519b7c3",
   "h": "c674f2f6d46e23d18155",
-  "tx": 1794409200000
+  "tx": 1794409200000,
+  "bm": {
+   "e": 223.6,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  },
+  "bi": {
+   "e": 223.6,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794481200000
+  }
  },
  {
   "id": "2026-11-07|Aturan Eliz|AVAX",
@@ -19564,13 +19576,14 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah, Wolf bullish: breakdown trendline gagal, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 573,
   "prev": "f6b2011c38edb46395ce",
-  "h": "601715b097a335a3513c"
+  "h": "601715b097a335a3513c",
+  "tx": 1794484800000
  },
  {
   "id": "2026-11-10|Aturan Eliz|UNI",
@@ -19739,13 +19752,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 580,
   "prev": "f62f109dd01937db3e73",
-  "h": "1c99760f814930c3316e"
+  "h": "1c99760f814930c3316e",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-10|Aturan Eliz|BTC",
@@ -19762,13 +19776,14 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 581,
   "prev": "1c99760f814930c3316e",
-  "h": "005a6a04957c73d1a7cc"
+  "h": "005a6a04957c73d1a7cc",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-10|Aturan Eliz|PEPE",
@@ -19851,7 +19866,19 @@
   "seq": 584,
   "prev": "0192515414fb9a2d60b9",
   "h": "a239359d80c469ea2e44",
-  "tx": 1794322800000
+  "tx": 1794322800000,
+  "bm": {
+   "e": 127.98,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794322800000
+  },
+  "bi": {
+   "e": 127.98,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794481200000
+  }
  },
  {
   "id": "2026-11-10|Aturan Eliz|MSTRB",
@@ -19973,13 +20000,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 589,
   "prev": "4d3830fc9b8bf356c89d",
-  "h": "7dc2be906d16224a07bd"
+  "h": "7dc2be906d16224a07bd",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-12|Aturan Eliz|BTC",
@@ -20157,13 +20185,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 597,
   "prev": "a552bf466bfa3cd7a450",
-  "h": "f97716517aec38df9d27"
+  "h": "f97716517aec38df9d27",
+  "tx": 1794488400000
  },
  {
   "id": "2026-11-12|Aturan Eliz|TRX",
