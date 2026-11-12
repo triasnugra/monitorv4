@@ -23,6 +23,8 @@ jobs:
         with: { node-version: 22 }
       - name: Tes logika (gagal = jangan terbitkan)
         run: node test/test.mjs
+      - name: Tes sumber data bersama
+        run: node --test test/core.test.mjs
       - name: Tarik jurnal semua mesin
         run: node scripts/fetch.mjs
       - name: Nilai ulang dan normalisasi
