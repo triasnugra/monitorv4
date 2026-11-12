@@ -1,74 +1,74 @@
 {
- "generatedAt": "2026-11-12T00:59:44.532Z",
+ "generatedAt": "2026-11-12T01:28:23.845Z",
  "mesin": {
   "tn": {
-   "lastAttemptAt": "2026-11-12T00:59:44.532Z",
+   "lastAttemptAt": "2026-11-12T01:28:23.845Z",
    "aktif": true,
    "changedAt": "2026-11-12T00:59:44.532Z",
    "ok": true,
    "error": null,
-   "fetchedAt": "2026-11-12T00:59:44.532Z",
+   "fetchedAt": "2026-11-12T01:28:23.845Z",
    "rows": 601,
    "sha": "265ad10d8c6addaf",
    "shrink": null
   },
   "tnv2": {
-   "lastAttemptAt": "2026-11-12T00:59:44.532Z",
+   "lastAttemptAt": "2026-11-12T01:28:23.845Z",
    "aktif": true,
    "changedAt": "2026-11-12T00:59:44.532Z",
    "ok": true,
    "error": null,
-   "fetchedAt": "2026-11-12T00:59:44.532Z",
+   "fetchedAt": "2026-11-12T01:28:23.845Z",
    "rows": 583,
    "sha": "694bc7897f1c4407",
    "shrink": null
   },
   "tnv2c2": {
-   "lastAttemptAt": "2026-11-12T00:59:44.532Z",
+   "lastAttemptAt": "2026-11-12T01:28:23.845Z",
    "aktif": true,
    "changedAt": "2026-11-11T18:39:52.746Z",
    "ok": true,
    "error": null,
-   "fetchedAt": "2026-11-12T00:59:44.532Z",
+   "fetchedAt": "2026-11-12T01:28:23.845Z",
    "rows": 318,
    "sha": "12893a11d8ae7d10",
    "shrink": null
   },
   "dseek": {
-   "lastAttemptAt": "2026-11-12T00:59:44.532Z",
+   "lastAttemptAt": "2026-11-12T01:28:23.845Z",
    "aktif": true,
    "changedAt": "2026-11-11T03:00:11.568Z",
    "ok": true,
    "error": null,
-   "fetchedAt": "2026-11-12T00:59:44.532Z",
+   "fetchedAt": "2026-11-12T01:28:23.845Z",
    "rows": 9,
    "sha": "8f5a18a407813390",
    "shrink": null
   },
   "chatgpt": {
-   "lastAttemptAt": "2026-11-12T00:59:44.532Z",
+   "lastAttemptAt": "2026-11-12T01:28:23.845Z",
    "aktif": true,
    "changedAt": "2026-11-12T00:59:44.532Z",
    "ok": true,
    "error": null,
-   "fetchedAt": "2026-11-12T00:59:44.532Z",
+   "fetchedAt": "2026-11-12T01:28:23.845Z",
    "rows": 547,
    "sha": "bac49c80336104f0",
    "shrink": null
   },
   "crypto": {
-   "lastAttemptAt": "2026-11-12T00:59:44.532Z",
+   "lastAttemptAt": "2026-11-12T01:28:23.845Z",
    "aktif": true,
    "changedAt": "2026-11-12T00:59:44.532Z",
    "ok": true,
    "error": null,
-   "fetchedAt": "2026-11-12T00:59:44.532Z",
+   "fetchedAt": "2026-11-12T01:28:23.845Z",
    "rows": 522,
    "sha": "dce66fb875c24c21",
    "shrink": null
   },
   "grox": {
-   "lastAttemptAt": "2026-11-12T00:59:44.532Z",
+   "lastAttemptAt": "2026-11-12T01:28:23.845Z",
    "aktif": false,
    "ok": false,
    "error": "tidak tersedia (lihat halaman Aturan)"
