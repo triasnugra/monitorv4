@@ -18809,13 +18809,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "Menjelang penutupan weekly (Senin 00:00 UTC).",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 543,
   "prev": "9e47666ef5174afa5f6a",
-  "h": "eeb9e88c806eee1dd97b"
+  "h": "eeb9e88c806eee1dd97b",
+  "tx": 1794463200000,
+  "bm": {
+   "e": 0.1681,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  },
+  "bi": {
+   "e": 0.1681,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794186000000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|BTC",
@@ -19779,7 +19792,19 @@
   "seq": 582,
   "prev": "005a6a04957c73d1a7cc",
   "h": "a2c5f77d105ee7c4356d",
-  "tx": 1794438000000
+  "tx": 1794438000000,
+  "bm": {
+   "e": 0.00000527,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794423600000
+  },
+  "bi": {
+   "e": 0.00000527,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794474000000
+  }
  },
  {
   "id": "2026-11-10|Aturan Eliz|SPCXB",

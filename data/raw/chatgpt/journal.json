@@ -14179,13 +14179,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 409,
   "prev": "b7e8ed6c2414d2051ed9",
-  "h": "cfe09481b5a2d817deef"
+  "h": "cfe09481b5a2d817deef",
+  "tx": 1794456686641,
+  "bm": {
+   "e": 132.23,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793890800000
+  },
+  "bi": {
+   "e": 132.23,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-11-05|Aturan Eliz|SOL",
@@ -14356,13 +14369,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 415,
   "prev": "e9157df3da5184c53207",
-  "h": "a11c1fcccda72c53df0e"
+  "h": "a11c1fcccda72c53df0e",
+  "tx": 1794456686642,
+  "bm": {
+   "e": 0.1804,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793919600000
+  },
+  "bi": {
+   "e": 0.1804,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-11-05|Aturan Eliz|WLD",
@@ -14379,13 +14405,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 416,
   "prev": "a11c1fcccda72c53df0e",
-  "h": "42cb45a505060aac2a72"
+  "h": "42cb45a505060aac2a72",
+  "tx": 1794456686642,
+  "bm": {
+   "e": 0.3741,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793890800000
+  },
+  "bi": {
+   "e": 0.3741,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793890800000
+  }
  },
  {
   "id": "2026-11-05|Aturan Eliz|MSTRB",
@@ -14497,13 +14536,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 420,
   "prev": "9e36a8882e3e2ed14614",
-  "h": "6577da085c95cde7d32c"
+  "h": "6577da085c95cde7d32c",
+  "tx": 1794456686642,
+  "bm": {
+   "e": 198.57,
+   "h": "TP",
+   "R": 2,
+   "tx": 1793890800000
+  },
+  "bi": {
+   "e": 198.57,
+   "h": "SL",
+   "R": -1,
+   "tx": 1793887200000
+  }
  },
  {
   "id": "2026-11-05|Aturan Eliz|ONDO",
