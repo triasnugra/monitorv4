@@ -15729,13 +15729,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 473,
   "prev": "7ded2c37dae9667de7ae",
-  "h": "58c73a653a6402fb8941"
+  "h": "58c73a653a6402fb8941",
+  "tx": 1794409200000
  },
  {
   "id": "2026-11-07|Aturan Eliz|LTC",

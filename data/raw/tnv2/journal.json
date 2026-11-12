@@ -18213,13 +18213,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 516,
   "prev": "20983e227349c866fbac",
-  "h": "15762fd96fe796351444"
+  "h": "15762fd96fe796351444",
+  "tx": 1794409200000
  },
  {
   "id": "2026-11-07|Aturan Eliz|AVAX",
@@ -18289,7 +18290,19 @@
   "seq": 519,
   "prev": "15946ad67884c8495028",
   "h": "03d6199e59b3ab30037f",
-  "tx": 1794240000000
+  "tx": 1794240000000,
+  "bm": {
+   "e": 0.00000503,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794240000000
+  },
+  "bi": {
+   "e": 0.00000503,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794430800000
+  }
  },
  {
   "id": "2026-11-07|Aturan Eliz|ONE",
@@ -19268,13 +19281,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 559,
   "prev": "cbe0ed5e53152bdbc23e",
-  "h": "5af24a80972a03488345"
+  "h": "5af24a80972a03488345",
+  "tx": 1794409200000
  },
  {
   "id": "2026-11-10|Aturan Eliz|LTC",
