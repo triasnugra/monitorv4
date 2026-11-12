@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { gradeTrade, mapK, H1 } from './trade-sim.mjs';
+import { buildCanonical } from './signals-core.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'config.json'), 'utf8'));
@@ -121,6 +122,15 @@ async function main() {
   const cacheFile = path.join(ROOT, 'data/grade-cache.json');
   const cache = fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf8')) : {};
   const rows = [], counts = {};
+  // Sumber data tunggal (signals-core.mjs): kepemilikan analisis + tanggal UTC/WIB, sama untuk semua monitor.
+  const KJ = {}, KP = {};
+  for (const m of cfg.mesin) {
+    const d = path.join(RAW, m.id), f = path.join(d, 'journal.json');
+    if (m.aktif === false || !fs.existsSync(f)) continue;
+    KJ[m.id] = JSON.parse(fs.readFileSync(f, 'utf8'));
+    KP[m.id] = fs.readdirSync(d).filter(x => /^forward-protocol.*\.json$/.test(x)).map(x => { try { return JSON.parse(fs.readFileSync(path.join(d, x), 'utf8')); } catch { return null; } }).filter(Boolean);
+  }
+  const KAN = buildCanonical(KJ, KP), kmap = new Map(KAN.rows.map(k => [`${k.mesin}|${k.aset}|${k.arah}|${k.t}`, k]));
   for (const m of cfg.mesin) {
     const f = path.join(RAW, m.id, 'journal.json');
     counts[m.id] = { baris_mesin: 0, duplikat_dibuang: 0, baris_monitor: 0 };
@@ -136,6 +146,11 @@ async function main() {
     const dd = dedupeKembar(mine, agenAktif(path.join(RAW, m.id)));
     counts[m.id].duplikat_dibuang += dd.dibuang;
     for (const x of dd.rows) { rows.push(x); counts[m.id].baris_monitor++; }
+  }
+  for (const x of rows) {
+    const k = kmap.get(`${x.mesin}|${String(x.aset).toUpperCase()}|${x.arah}|${x.t}`);
+    x.milik = k ? k.milik : 'tidak_diketahui'; x.legacy = !!k?.legacy;
+    x.tanggal_utc = k?.tanggal_utc ?? null; x.tanggal_wib = k?.tanggal_wib ?? null; x.waktu_wib = k?.waktu_wib ?? null;
   }
   // tandai baris kembar antar fork (bukan bukti independen)
   const byKey = new Map();
@@ -171,7 +186,7 @@ async function main() {
   }
   for (const x of rows) { if (!('risk_pct' in x) && Number.isFinite(x.entry) && Number.isFinite(x.sl) && x.entry) x.risk_pct = +(Math.abs(x.entry - x.sl) / x.entry * 100).toFixed(4); }
   fs.writeFileSync(cacheFile, JSON.stringify(cache));
-  const out = { generatedAt: new Date().toISOString(), now_ms: NOW, aturan: 'trade-sim.mjs dasar (tn/tnv2/chatgpt/crypto)', counts, grade_errors: errs, rows };
+  const out = { generatedAt: new Date().toISOString(), now_ms: NOW, aturan: 'trade-sim.mjs dasar (tn/tnv2/chatgpt/crypto)', counts, grade_errors: errs, kanonik: { aturan: KAN.aturan, hash_v1: KAN.hash_v1, laporan: KAN.laporan, peringatan: KAN.peringatan }, rows };
   fs.writeFileSync(path.join(ROOT, 'data/signals.json'), JSON.stringify(out));
   const dist = {}; for (const x of rows) dist[x.status_monitor] = (dist[x.status_monitor] || 0) + 1;
   console.log('selesai', JSON.stringify(dist), 'error', errs);
