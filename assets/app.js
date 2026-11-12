@@ -48,7 +48,7 @@ const protoOf = id => pilihProtokol(S.meta[id]?.protos || []);
 function basisRows(id, basis = S.basis) {
   const all = rowsOf(id), P = protoOf(id);
   if (basis === 'protokol' && P) return { rows: basisProtokol(all, P).kept, label: 'protokol', P };
-  return { rows: all, label: P || basis === 'semua' ? 'semua baris' : 'semua baris (tanpa file protokol)', P };
+  return { rows: all.filter(r => r.milik !== 'warisan_v1'), label: P || basis === 'semua' ? 'semua baris milik sendiri' : 'semua baris (tanpa file protokol)', P };
 }
 const activeMesin = () => S.cfg.mesin.filter(m => m.aktif !== false && S.raw[m.id]);
 const srcTs = id => {
@@ -82,6 +82,7 @@ function renderBanner() {
   let h = '';
   if (stale.length) h += `<div class="callout">⚠ Data basi (&gt; ${S.cfg.stale_jam} jam atau penarikan gagal): <b>${stale.map(m => m.id).join(', ')}</b>. Angka di bawah memakai data terakhir yang berhasil ditarik.</div>`;
   if (shrink.length) h += `<div class="callout bad">Jumlah baris jurnal BERKURANG di: <b>${shrink.map(m => m.id).join(', ')}</b>. Lihat Audit (d) dan <code>data/snapshots/</code>.</div>`;
+  for (const w of (S.sig?.kanonik?.peringatan || [])) h += `<div class="callout">⚠ <b>${esc(w.mesin)}</b>: ${esc(w.t)}</div>`;
   $('#banner').innerHTML = h;
 }
 
@@ -219,7 +220,7 @@ function renderBreakdown() {
 
 // ---------- 6. tabel sinyal ----------
 const sg = { m: '', aset: '', st: '', from: '', to: '', limit: 200 };
-const SIG_COLS = ['waktu_utc', 'mesin', 'aset', 'arah', 'entry', 'sl', 'tp', 'status_mesin', 'status_monitor', 'R_mesin', 'R_monitor', 'R_net', 'risk_pct', 'kembar_fork', 'tersegel', 'kind', 'tipe', 'mode', 'tf', 'engine', 'id'];
+const SIG_COLS = ['waktu_utc', 'tanggal_utc', 'tanggal_wib', 'milik', 'mesin', 'aset', 'arah', 'entry', 'sl', 'tp', 'status_mesin', 'status_monitor', 'R_mesin', 'R_monitor', 'R_net', 'risk_pct', 'kembar_fork', 'tersegel', 'kind', 'tipe', 'mode', 'tf', 'engine', 'id'];
 const decorate = r => ({ ...r, waktu_utc: fmtT(r.t), R_net: FILLED(r.status_monitor) ? +netR(r, S.biaya).toFixed(4) : '', kembar_fork: r.fork_bersama ? r.fork_bersama.join('+') : '', tersegel: r.sealed ? 'ya' : 'tidak' });
 function sigFiltered() {
   return S.sig.rows.filter(r => (!sg.m || r.mesin === sg.m) && (!sg.aset || r.aset?.toLowerCase().includes(sg.aset.toLowerCase())) && (!sg.st || r.status_monitor === sg.st) &&
@@ -235,8 +236,8 @@ function renderSinyal() {
     <label>Dari <input id="ff" type="date" value="${sg.from}"></label><label>Sampai <input id="ft" type="date" value="${sg.to}"></label>
     <button id="csv" type="button">Ekspor CSV (${f.length})</button></div>
     <div class="muted small">${f.length} baris cocok; menampilkan ${shown.length}. Seluruh baris yang cocok masuk CSV.</div>
-    <div class="tbl"><table><thead><tr><th>Waktu (UTC)</th><th>Mesin</th><th>Aset</th><th>Arah</th><th>Entry</th><th>SL</th><th>TP</th><th>Status mesin</th><th>Status monitor</th><th>R mesin</th><th>R monitor</th><th>R net</th><th>Catatan</th></tr></thead><tbody>
-    ${shown.map(r => `<tr><td class="l">${r.waktu_utc}</td><td class="l">${r.mesin}</td><td class="l">${esc(r.aset)}</td><td class="l">${r.arah ?? ''}</td><td>${r.entry}</td><td>${r.sl}</td><td>${r.tp}</td><td class="l">${r.status_mesin ?? '–'}</td><td class="l ${r.status_mesin && r.status_mesin !== r.status_monitor ? 'neg' : ''}">${r.status_monitor}</td><td>${r.R_mesin ?? '–'}</td><td>${r.R_monitor ?? '–'}</td><td class="${cls(r.R_net)}">${r.R_net === '' ? '–' : fmtR(r.R_net)}</td><td class="l small muted">${[r.kembar_fork && 'kembar: ' + r.kembar_fork, !r.sealed && 'tidak tersegel', r.catatan, r.grade_error].filter(Boolean).map(esc).join(' · ')}</td></tr>`).join('')}</tbody></table></div>
+    <div class="tbl"><table><thead><tr><th>Waktu (UTC)</th><th>Tgl WIB</th><th>Mesin</th><th>Aset</th><th>Arah</th><th>Entry</th><th>SL</th><th>TP</th><th>Status mesin</th><th>Status monitor</th><th>R mesin</th><th>R monitor</th><th>R net</th><th>Catatan</th></tr></thead><tbody>
+    ${shown.map(r => `<tr><td class="l">${r.waktu_utc}</td><td class="l">${r.tanggal_wib ?? '–'}</td><td class="l">${r.mesin}</td><td class="l">${esc(r.aset)}</td><td class="l">${r.arah ?? ''}</td><td>${r.entry}</td><td>${r.sl}</td><td>${r.tp}</td><td class="l">${r.status_mesin ?? '–'}</td><td class="l ${r.status_mesin && r.status_mesin !== r.status_monitor ? 'neg' : ''}">${r.status_monitor}</td><td>${r.R_mesin ?? '–'}</td><td>${r.R_monitor ?? '–'}</td><td class="${cls(r.R_net)}">${r.R_net === '' ? '–' : fmtR(r.R_net)}</td><td class="l small muted">${[r.kembar_fork && 'kembar: ' + r.kembar_fork, !r.sealed && 'tidak tersegel', r.milik === 'warisan_v1' && 'warisan v1 (bukan analisis mesin ini)', r.catatan, r.grade_error].filter(Boolean).map(esc).join(' · ')}</td></tr>`).join('')}</tbody></table></div>
     ${f.length > shown.length ? '<button id="more" type="button">Tampilkan 200 lagi</button>' : ''}`;
   const bind = (id, k, ev = 'change') => { $(id).addEventListener(ev, e => { sg[k] = e.target.value; sg.limit = 200; renderSinyal(); if (id === '#fa') { const i = $('#fa'); i.focus(); i.setSelectionRange(i.value.length, i.value.length); } }); };
   bind('#fm', 'm'); bind('#fs', 'st'); bind('#ff', 'from'); bind('#ft', 'to'); bind('#fa', 'aset', 'input');
