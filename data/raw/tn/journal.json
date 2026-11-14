@@ -21636,13 +21636,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 628,
   "prev": "1b9d66d970b2285424fc",
-  "h": "2b3088dea7929ca22f94"
+  "h": "2b3088dea7929ca22f94",
+  "tx": 1794657600000
  },
  {
   "id": "2026-11-14|Aturan Eliz|BERA",

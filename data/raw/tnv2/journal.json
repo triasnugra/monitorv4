@@ -21153,7 +21153,19 @@
   "seq": 605,
   "prev": "065f69d556f44fda7ad6",
   "h": "610b4169f9e17939b6c6",
-  "tx": 1794538800000
+  "tx": 1794538800000,
+  "bm": {
+   "e": 114.29,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794538800000
+  },
+  "bi": {
+   "e": 114.29,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794639600000
+  }
  },
  {
   "id": "2026-11-13|Aturan Eliz|NBISB",
@@ -21815,13 +21827,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 634,
   "prev": "8324c867d63f3b795fc0",
-  "h": "d38dd2d4f11cd945e356"
+  "h": "d38dd2d4f11cd945e356",
+  "tx": 1794657600000
  },
  {
   "id": "2026-11-14|Eliz v2|ADA",
