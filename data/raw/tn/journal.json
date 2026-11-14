@@ -19346,13 +19346,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Menjelang penutupan weekly (Senin 00:00 UTC).",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 537,
   "prev": "38c7be7e54a4398801e7",
-  "h": "8cb167d2b9f25f41c101"
+  "h": "8cb167d2b9f25f41c101",
+  "tx": 1794664800000,
+  "bm": {
+   "e": 8.182,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794225600000
+  },
+  "bi": {
+   "e": 8.182,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794664800000
+  }
  },
  {
   "id": "2026-11-08|Aturan Eliz|ZEC",
@@ -20091,13 +20104,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 566,
   "prev": "e7f3c50448f7a247eac4",
-  "h": "a09111b11ec3c82b99c9"
+  "h": "a09111b11ec3c82b99c9",
+  "tx": 1794664800000,
+  "bm": {
+   "e": 8.063,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794225600000
+  },
+  "bi": {
+   "e": 8.063,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794236400000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|MSTRB",
@@ -20719,7 +20745,19 @@
   "seq": 589,
   "prev": "4d3830fc9b8bf356c89d",
   "h": "7dc2be906d16224a07bd",
-  "tx": 1794488400000
+  "tx": 1794488400000,
+  "bm": {
+   "e": 49.88,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794488400000
+  },
+  "bi": {
+   "e": 49.88,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794664800000
+  }
  },
  {
   "id": "2026-11-12|Aturan Eliz|BTC",
@@ -21153,13 +21191,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 607,
   "prev": "2bddf87e14c668915b6f",
-  "h": "bd4d473571d00118f7ea"
+  "h": "bd4d473571d00118f7ea",
+  "tx": 1794661200000,
+  "bm": {
+   "e": 7.471,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794567600000
+  },
+  "bi": {
+   "e": 7.471,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794542400000
+  }
  },
  {
   "id": "2026-11-12|Aturan Eliz|OPG",
@@ -21291,13 +21342,26 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah, sweep Monday Low lalu reclaim, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 613,
   "prev": "04a67b85d710e5e1177f",
-  "h": "0065b0e2d7ad31a912a0"
+  "h": "0065b0e2d7ad31a912a0",
+  "tx": 1794664800000,
+  "bm": {
+   "e": 215.5,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794664800000
+  },
+  "bi": {
+   "e": 215.5,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794672000000
+  }
  },
  {
   "id": "2026-11-14|Aturan Eliz|XLM",
@@ -21314,13 +21378,26 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, deviasi bawah lalu recovery, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 614,
   "prev": "0065b0e2d7ad31a912a0",
-  "h": "6fdb74d3c1b292fcb893"
+  "h": "6fdb74d3c1b292fcb893",
+  "tx": 1794664800000,
+  "bm": {
+   "e": 0.1451,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794664800000
+  },
+  "bi": {
+   "e": 0.1451,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794672000000
+  }
  },
  {
   "id": "2026-11-14|Aturan Eliz|NVDAB",
@@ -21613,13 +21690,26 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 627,
   "prev": "ad204f4c8ce053e87f48",
-  "h": "1b9d66d970b2285424fc"
+  "h": "1b9d66d970b2285424fc",
+  "tx": 1794661200000,
+  "bm": {
+   "e": 49.37,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794661200000
+  },
+  "bi": {
+   "e": 49.37,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794672000000
+  }
  },
  {
   "id": "2026-11-14|Aturan Eliz|PUMP",
@@ -21643,7 +21733,19 @@
   "seq": 628,
   "prev": "1b9d66d970b2285424fc",
   "h": "2b3088dea7929ca22f94",
-  "tx": 1794657600000
+  "tx": 1794657600000,
+  "bm": {
+   "e": 0.003438,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794650400000
+  },
+  "bi": {
+   "e": 0.003438,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794668400000
+  }
  },
  {
   "id": "2026-11-14|Aturan Eliz|BERA",
