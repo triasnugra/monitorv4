@@ -4048,5 +4048,226 @@
    "MELAWAN_BTC"
   ],
   "skor": 2
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|PEPE",
+  "d": "2026-11-15",
+  "aset": "PEPE",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH"
+  ],
+  "skor": 4
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|SHELL",
+  "d": "2026-11-15",
+  "aset": "SHELL",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 4
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|BNB",
+  "d": "2026-11-15",
+  "aset": "BNB",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|SOPH",
+  "d": "2026-11-15",
+  "aset": "SOPH",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI",
+   "MELAWAN_TREN_TANPA_KONFLUENSI",
+   "MELAWAN_BTC"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|TAO",
+  "d": "2026-11-15",
+  "aset": "TAO",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|XLM",
+  "d": "2026-11-15",
+  "aset": "XLM",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|ENA",
+  "d": "2026-11-15",
+  "aset": "ENA",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|ASTER",
+  "d": "2026-11-15",
+  "aset": "ASTER",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|NVDAB",
+  "d": "2026-11-15",
+  "aset": "NVDAB",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|KAVA",
+  "d": "2026-11-15",
+  "aset": "KAVA",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|ONDO",
+  "d": "2026-11-15",
+  "aset": "ONDO",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|ZRO",
+  "d": "2026-11-15",
+  "aset": "ZRO",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|NEAR",
+  "d": "2026-11-15",
+  "aset": "NEAR",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI",
+   "MELAWAN_TREN_TANPA_KONFLUENSI"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|UNI",
+  "d": "2026-11-15",
+  "aset": "UNI",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "TRIGGER_BASI",
+   "MELAWAN_TREN_TANPA_KONFLUENSI"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|TRX",
+  "d": "2026-11-15",
+  "aset": "TRX",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "TRIGGER_BASI",
+   "MELAWAN_TREN_TANPA_KONFLUENSI"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|INJ",
+  "d": "2026-11-15",
+  "aset": "INJ",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_TREN_TANPA_KONFLUENSI"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-15|Aturan Eliz|XAUT",
+  "d": "2026-11-15",
+  "aset": "XAUT",
+  "arah": "SHORT",
+  "v2": "LOLOS",
+  "alasan": [],
+  "skor": 2
  }
 ]
