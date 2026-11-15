@@ -19464,13 +19464,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "Menjelang penutupan weekly (Senin 00:00 UTC).",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 541,
   "prev": "d615d271355555a63e3b",
-  "h": "1018c89b9f5bba15b9ad"
+  "h": "1018c89b9f5bba15b9ad",
+  "tx": 1794686400000,
+  "bm": {
+   "e": 0.3218,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794128400000
+  },
+  "bi": {
+   "e": 0.3218,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794232800000
+  }
  },
  {
   "id": "2026-11-08|Aturan Eliz|INJ",
@@ -19487,13 +19500,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "Menjelang penutupan weekly (Senin 00:00 UTC).",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 542,
   "prev": "1018c89b9f5bba15b9ad",
-  "h": "9e47666ef5174afa5f6a"
+  "h": "9e47666ef5174afa5f6a",
+  "tx": 1794691080000,
+  "bm": {
+   "e": 8.12,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794171600000
+  },
+  "bi": {
+   "e": 8.12,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794322800000
+  }
  },
  {
   "id": "2026-11-08|Aturan Eliz|ARB",
@@ -20081,13 +20107,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 565,
   "prev": "b8dd10dd3ad61c90f4b2",
-  "h": "e7f3c50448f7a247eac4"
+  "h": "e7f3c50448f7a247eac4",
+  "tx": 1794691080000,
+  "bm": {
+   "e": 8.23,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794207600000
+  },
+  "bi": {
+   "e": 8.23,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794214800000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|AVAX",
@@ -21762,12 +21801,25 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 629,
   "prev": "2b3088dea7929ca22f94",
-  "h": "e7ea81dc9fba66587834"
+  "h": "e7ea81dc9fba66587834",
+  "tx": 1794679200000,
+  "bm": {
+   "e": 0.1293,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794636000000
+  },
+  "bi": {
+   "e": 0.1293,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794636000000
+  }
  }
 ]

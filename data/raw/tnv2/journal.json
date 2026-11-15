@@ -19611,13 +19611,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 544,
   "prev": "5d6eadb2211befe4ee2a",
-  "h": "2c439ae5d619162bfb20"
+  "h": "2c439ae5d619162bfb20",
+  "tx": 1794691080000,
+  "bm": {
+   "e": 8.132,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794214800000
+  },
+  "bi": {
+   "e": 8.132,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794322800000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|CRCLB",
@@ -21276,7 +21289,19 @@
   "seq": 607,
   "prev": "ad3668bf585768af2f84",
   "h": "e8a3dd504c9f51542aa7",
-  "tx": 1794621600000
+  "tx": 1794621600000,
+  "bm": {
+   "e": 0.6684,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794621600000
+  },
+  "bi": {
+   "e": 0.6684,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794682800000
+  }
  },
  {
   "id": "2026-11-13|Aturan Eliz|CRCLB",
@@ -22012,12 +22037,25 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 637,
   "prev": "db2001b7cfb74f235328",
-  "h": "7447626bf62bb7bd68db"
+  "h": "7447626bf62bb7bd68db",
+  "tx": 1794679200000,
+  "bm": {
+   "e": 0.1296,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794636000000
+  },
+  "bi": {
+   "e": 0.1296,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794636000000
+  }
  }
 ]
