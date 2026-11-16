@@ -19832,13 +19832,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, breakdown ber-close, retest, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 544,
   "prev": "eeb9e88c806eee1dd97b",
-  "h": "28561deb008cf30df70e"
+  "h": "28561deb008cf30df70e",
+  "tx": 1794800651837,
+  "bm": {
+   "e": 75106,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794538800000
+  },
+  "bi": {
+   "e": 75106,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794488400000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|ETH",
@@ -19855,13 +19868,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, breakdown ber-close, retest, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 545,
   "prev": "28561deb008cf30df70e",
-  "h": "6803e33f1ff39e90267f"
+  "h": "6803e33f1ff39e90267f",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 2147.1,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794664800000
+  },
+  "bi": {
+   "e": 2147.1,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794488400000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|ZEC",
@@ -19914,13 +19940,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 547,
   "prev": "a31db9aa2d9fae08729f",
-  "h": "45a98ada3bdc30dba803"
+  "h": "45a98ada3bdc30dba803",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 689.25,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794535200000
+  },
+  "bi": {
+   "e": 689.25,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794481200000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|PEPE",
@@ -19973,13 +20012,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 549,
   "prev": "42673570471095164a4c",
-  "h": "b75f504258db696cbe9e"
+  "h": "b75f504258db696cbe9e",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 10.618,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794492000000
+  },
+  "bi": {
+   "e": 10.618,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794322800000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|NVDAB",
@@ -19996,13 +20048,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 550,
   "prev": "b75f504258db696cbe9e",
-  "h": "40c7d850f4ebeeb53489"
+  "h": "40c7d850f4ebeeb53489",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 180.09,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794326400000
+  },
+  "bi": {
+   "e": 180.09,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794232800000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|AAVE",
@@ -20019,13 +20084,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 551,
   "prev": "40c7d850f4ebeeb53489",
-  "h": "dcf13ee0643a3bc8e4e1"
+  "h": "dcf13ee0643a3bc8e4e1",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 130.23,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794225600000
+  },
+  "bi": {
+   "e": 130.23,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794290400000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|LTC",
@@ -20042,13 +20120,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, breakdown ber-close, retest, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 552,
   "prev": "dcf13ee0643a3bc8e4e1",
-  "h": "085b73543738102bfcc6"
+  "h": "085b73543738102bfcc6",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 51.1,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794538800000
+  },
+  "bi": {
+   "e": 51.1,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794463200000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|TAO",
@@ -20065,13 +20156,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 553,
   "prev": "085b73543738102bfcc6",
-  "h": "2b53f54c93e894051274"
+  "h": "2b53f54c93e894051274",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 217.9,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794236400000
+  },
+  "bi": {
+   "e": 217.9,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794481200000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|SOL",
@@ -20088,13 +20192,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 554,
   "prev": "2b53f54c93e894051274",
-  "h": "2892431d28029bf6a64a"
+  "h": "2892431d28029bf6a64a",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 87.87,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794322800000
+  },
+  "bi": {
+   "e": 87.87,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794301200000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|XRP",
@@ -20111,13 +20228,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 555,
   "prev": "2892431d28029bf6a64a",
-  "h": "fe0f962e77afde2ebfdd"
+  "h": "fe0f962e77afde2ebfdd",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 1.1159,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794675600000
+  },
+  "bi": {
+   "e": 1.1159,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794322800000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|SUI",
@@ -20134,13 +20264,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 556,
   "prev": "fe0f962e77afde2ebfdd",
-  "h": "baf290071974d0986a14"
+  "h": "baf290071974d0986a14",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 0.8382,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794672000000
+  },
+  "bi": {
+   "e": 0.8382,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794488400000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|ENA",
@@ -20157,13 +20300,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 557,
   "prev": "baf290071974d0986a14",
-  "h": "6973b42ec548807d6390"
+  "h": "6973b42ec548807d6390",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 0.1534,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794463200000
+  },
+  "bi": {
+   "e": 0.1534,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794207600000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|DOGE",
@@ -20180,13 +20336,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 558,
   "prev": "6973b42ec548807d6390",
-  "h": "c6dc4aa1858f31b55865"
+  "h": "c6dc4aa1858f31b55865",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 0.06979,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794488400000
+  },
+  "bi": {
+   "e": 0.06979,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794322800000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|WLD",
@@ -20203,13 +20372,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 559,
   "prev": "c6dc4aa1858f31b55865",
-  "h": "d66f48651bbf80a00288"
+  "h": "d66f48651bbf80a00288",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 0.3243,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794438000000
+  },
+  "bi": {
+   "e": 0.3243,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794207600000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|ARB",
@@ -20262,13 +20444,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, OBV divergence",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": 1.64,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 561,
   "prev": "28dadf66e31b69d438ba",
-  "h": "a223ede301d9f9e59e47"
+  "h": "a223ede301d9f9e59e47",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 0.3188,
+   "h": "kedaluwarsa",
+   "R": 1.543,
+   "tx": 1794800651838
+  },
+  "bi": {
+   "e": 0.3188,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794672000000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|SPCXB",
@@ -20321,13 +20516,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 563,
   "prev": "e2a052fac2c3811f5def",
-  "h": "843ff5df69f649bda67c"
+  "h": "843ff5df69f649bda67c",
+  "tx": 1794800651838,
+  "bm": {
+   "e": 66.58,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794236400000
+  },
+  "bi": {
+   "e": 66.58,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794326400000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|ADA",
@@ -20344,13 +20552,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 564,
   "prev": "843ff5df69f649bda67c",
-  "h": "b8dd10dd3ad61c90f4b2"
+  "h": "b8dd10dd3ad61c90f4b2",
+  "tx": 1794800651839,
+  "bm": {
+   "e": 0.1772,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794639600000
+  },
+  "bi": {
+   "e": 0.1772,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794488400000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|INJ",
@@ -20439,13 +20660,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 567,
   "prev": "a09111b11ec3c82b99c9",
-  "h": "30be37a9d5e49ff88806"
+  "h": "30be37a9d5e49ff88806",
+  "tx": 1794800651839,
+  "bm": {
+   "e": 126.43,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794621600000
+  },
+  "bi": {
+   "e": 126.43,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794463200000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|ASTER",
@@ -20498,13 +20732,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 569,
   "prev": "fda5e3d8d834216d4afb",
-  "h": "b7a4e8cb27319274def7"
+  "h": "b7a4e8cb27319274def7",
+  "tx": 1794800651840,
+  "bm": {
+   "e": 0.001673,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794200400000
+  },
+  "bi": {
+   "e": 0.001673,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794211200000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|UNI",
@@ -20521,13 +20768,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 570,
   "prev": "b7a4e8cb27319274def7",
-  "h": "b46338634c3b9929f194"
+  "h": "b46338634c3b9929f194",
+  "tx": 1794800651840,
+  "bm": {
+   "e": 6.975,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794488400000
+  },
+  "bi": {
+   "e": 6.975,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794376800000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|PUMP",
@@ -20544,13 +20804,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 571,
   "prev": "b46338634c3b9929f194",
-  "h": "f496413111e28f17b71f"
+  "h": "f496413111e28f17b71f",
+  "tx": 1794800651840,
+  "bm": {
+   "e": 0.003639,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794672000000
+  },
+  "bi": {
+   "e": 0.003639,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794488400000
+  }
  },
  {
   "id": "2026-11-09|Aturan Eliz|QNT",
@@ -20567,13 +20840,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 572,
   "prev": "f496413111e28f17b71f",
-  "h": "f6b2011c38edb46395ce"
+  "h": "f6b2011c38edb46395ce",
+  "tx": 1794800651840,
+  "bm": {
+   "e": 199.39,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794308400000
+  },
+  "bi": {
+   "e": 199.39,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794207600000
+  }
  },
  {
   "id": "2026-11-10|Aturan Eliz|BNB",
@@ -22511,5 +22797,373 @@
   "seq": 646,
   "prev": "c87156981b5b9d576d15",
   "h": "c731fc7d0602f0773431"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|PEPE",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163813,
+  "due": 1795405963813,
+  "agen": "Aturan Eliz",
+  "aset": "PEPE",
+  "arah": "SHORT",
+  "entry": 0.00000538,
+  "sl": 0.0000055414,
+  "tp": 0.0000050572,
+  "harga_awal": 0.00000388,
+  "keyakinan": "",
+  "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan beli melemah, sweep Monday High lalu reclaim, RSI divergence, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 647,
+  "prev": "c731fc7d0602f0773431",
+  "h": "05fa88c76c2357ffad14"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|SHELL",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163813,
+  "due": 1795405963813,
+  "agen": "Aturan Eliz",
+  "aset": "SHELL",
+  "arah": "LONG",
+  "entry": 0.01943,
+  "sl": 0.018847,
+  "tp": 0.020596,
+  "harga_awal": 0.02772,
+  "keyakinan": "",
+  "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, OBV divergence",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 648,
+  "prev": "05fa88c76c2357ffad14",
+  "h": "9aaa2fefe6a4ca4c3036"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|ASTER",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163813,
+  "due": 1795405963813,
+  "agen": "Aturan Eliz",
+  "aset": "ASTER",
+  "arah": "SHORT",
+  "entry": 0.6511,
+  "sl": 0.71596,
+  "tp": 0.52138,
+  "harga_awal": 0.5177,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 649,
+  "prev": "9aaa2fefe6a4ca4c3036",
+  "h": "1dc5de589f900ba28035"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|BNB",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163813,
+  "due": 1795405963813,
+  "agen": "Aturan Eliz",
+  "aset": "BNB",
+  "arah": "SHORT",
+  "entry": 691.81,
+  "sl": 712.56,
+  "tp": 650.3,
+  "harga_awal": 596.79,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 650,
+  "prev": "1dc5de589f900ba28035",
+  "h": "704c3e56751821e63fad"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|NVDAB",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "NVDAB",
+  "arah": "SHORT",
+  "entry": 183,
+  "sl": 188.49,
+  "tp": 172.02,
+  "harga_awal": 165.53,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, breakdown ber-close, retest, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 651,
+  "prev": "704c3e56751821e63fad",
+  "h": "09d7a87199ce955f3dae"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|AVAX",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "AVAX",
+  "arah": "LONG",
+  "entry": 7.169,
+  "sl": 6.7093,
+  "tp": 8.0884,
+  "harga_awal": 7.31,
+  "keyakinan": "",
+  "alasan": "deviasi bawah lalu recovery, OBV divergence, RSI divergence",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 652,
+  "prev": "09d7a87199ce955f3dae",
+  "h": "f85ec25ff2a549ada3fe"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|TAO",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "TAO",
+  "arah": "SHORT",
+  "entry": 225.9,
+  "sl": 232.68,
+  "tp": 212.35,
+  "harga_awal": 194.9,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 653,
+  "prev": "f85ec25ff2a549ada3fe",
+  "h": "32daa3f7597ff3d51007"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|SPCXB",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "SPCXB",
+  "arah": "SHORT",
+  "entry": 143.33,
+  "sl": 149.15,
+  "tp": 131.69,
+  "harga_awal": 140.07,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 654,
+  "prev": "32daa3f7597ff3d51007",
+  "h": "b7bcf85913a02768cfa4"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|XAUT",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "XAUT",
+  "arah": "LONG",
+  "entry": 3873.8,
+  "sl": 3745.1,
+  "tp": 4131.1,
+  "harga_awal": 3883.05,
+  "keyakinan": "",
+  "alasan": "deviasi bawah lalu recovery, RSI divergence",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 655,
+  "prev": "b7bcf85913a02768cfa4",
+  "h": "921d70245dd17b890d3e"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|ENA",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "ENA",
+  "arah": "SHORT",
+  "entry": 0.1578,
+  "sl": 0.16253,
+  "tp": 0.14833,
+  "harga_awal": 0.1213,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 656,
+  "prev": "921d70245dd17b890d3e",
+  "h": "fbe7a272b079d8dd2dfc"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|INTCB",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "INTCB",
+  "arah": "SHORT",
+  "entry": 60.07,
+  "sl": 64.37,
+  "tp": 51.47,
+  "harga_awal": 59.14,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 657,
+  "prev": "fbe7a272b079d8dd2dfc",
+  "h": "37c4751f37c38c4522b5"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|SKHYB",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "SKHYB",
+  "arah": "SHORT",
+  "entry": 136,
+  "sl": 146.54,
+  "tp": 114.92,
+  "harga_awal": 132.93,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim, searah tren",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 658,
+  "prev": "37c4751f37c38c4522b5",
+  "h": "93e84adbe8babe31c8e5"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|NEAR",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "NEAR",
+  "arah": "SHORT",
+  "entry": 3.68,
+  "sl": 3.8341,
+  "tp": 3.3719,
+  "harga_awal": 3.216,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 659,
+  "prev": "93e84adbe8babe31c8e5",
+  "h": "d8eb05aa01dee7ed82a4"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|UNI",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "UNI",
+  "arah": "SHORT",
+  "entry": 7.11,
+  "sl": 7.3233,
+  "tp": 6.6834,
+  "harga_awal": 5.183,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 660,
+  "prev": "d8eb05aa01dee7ed82a4",
+  "h": "6446ceaf36c7844bd639"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|TRX",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "TRX",
+  "arah": "SHORT",
+  "entry": 0.3195,
+  "sl": 0.32909,
+  "tp": 0.30033,
+  "harga_awal": 0.3053,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 661,
+  "prev": "6446ceaf36c7844bd639",
+  "h": "8e598fbbcab3a9246b3f"
+ },
+ {
+  "id": "2026-11-16|Aturan Eliz|INJ",
+  "waktu": "2026-11-16 03:52 UTC",
+  "t": 1794801163814,
+  "due": 1795405963814,
+  "agen": "Aturan Eliz",
+  "aset": "INJ",
+  "arah": "SHORT",
+  "entry": 8.315,
+  "sl": 8.5644,
+  "tp": 7.8161,
+  "harga_awal": 6.991,
+  "keyakinan": "",
+  "alasan": "sweep Monday High lalu reclaim",
+  "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
+  "hasil": "menunggu",
+  "R": "",
+  "engine": "0537067ed55fc5be",
+  "fwd": 1,
+  "seq": 662,
+  "prev": "8e598fbbcab3a9246b3f",
+  "h": "0acb0622ab2564b36a30"
  }
 ]
