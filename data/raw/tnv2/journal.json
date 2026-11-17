@@ -21139,13 +21139,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 585,
   "prev": "8a2451f4039fdfba3358",
-  "h": "2217b2171d00668e2758"
+  "h": "2217b2171d00668e2758",
+  "tx": 1794927600000,
+  "bm": {
+   "e": 955.41,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794484800000
+  },
+  "bi": {
+   "e": 955.41,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794488400000
+  }
  },
  {
   "id": "2026-11-12|Aturan Eliz|NEAR",
@@ -21792,13 +21805,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 610,
   "prev": "e3b668d1acfa87663ab5",
-  "h": "7dc4dbd32951e5ed6cdb"
+  "h": "7dc4dbd32951e5ed6cdb",
+  "tx": 1794927600000,
+  "bm": {
+   "e": 962.85,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794538800000
+  },
+  "bi": {
+   "e": 962.85,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794542400000
+  }
  },
  {
   "id": "2026-11-13|Aturan Eliz|NEAR",
