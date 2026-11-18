@@ -21787,13 +21787,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 603,
   "prev": "5ca335e9e3dc4fbb642f",
-  "h": "350eace50487453602c6"
+  "h": "350eace50487453602c6",
+  "tx": 1794927600000,
+  "bm": {
+   "e": 966.5,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794459600000
+  },
+  "bi": {
+   "e": 966.5,
+   "h": "TP",
+   "R": 2,
+   "tx": 1794484800000
+  }
  },
  {
   "id": "2026-11-12|Aturan Eliz|NEAR",
