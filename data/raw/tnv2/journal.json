@@ -21500,13 +21500,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 599,
   "prev": "d959337ffa7b1636d68f",
-  "h": "01ee21e556c37a27a6e7"
+  "h": "01ee21e556c37a27a6e7",
+  "tx": 1794988800000
  },
  {
   "id": "2026-11-13|Aturan Eliz|LTC",
@@ -22258,13 +22259,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 628,
   "prev": "fa8a486ce92541f47c43",
-  "h": "6512d78454ed63c0bcf8"
+  "h": "6512d78454ed63c0bcf8",
+  "tx": 1794988800000
  },
  {
   "id": "2026-11-14|Aturan Eliz|WLD",
@@ -23151,13 +23153,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, RSI divergence",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 664,
   "prev": "106c358dc447970dfd5e",
-  "h": "ad45e92893af95ab9d65"
+  "h": "ad45e92893af95ab9d65",
+  "tx": 1795003200000
  },
  {
   "id": "2026-11-16|Aturan Eliz|ENA",

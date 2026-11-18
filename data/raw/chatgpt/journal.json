@@ -18312,13 +18312,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 561,
   "prev": "08339ecd383968a57808",
-  "h": "222ac0c0abd74bb837f6"
+  "h": "222ac0c0abd74bb837f6",
+  "tx": 1794988800000
  },
  {
   "id": "2026-11-14|Aturan Eliz|ADA",
@@ -19439,13 +19440,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 610,
   "prev": "a015ffeb6c8da3d57aa3",
-  "h": "ee85b07be84bf1e38977"
+  "h": "ee85b07be84bf1e38977",
+  "tx": 1794999600000
  },
  {
   "id": "2026-11-18|Aturan Eliz|GRAM",
