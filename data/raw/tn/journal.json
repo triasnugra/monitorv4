@@ -23101,13 +23101,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, RSI divergence",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 655,
   "prev": "b7bcf85913a02768cfa4",
-  "h": "921d70245dd17b890d3e"
+  "h": "921d70245dd17b890d3e",
+  "tx": 1795003200000
  },
  {
   "id": "2026-11-16|Aturan Eliz|ENA",
@@ -23884,13 +23885,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 689,
   "prev": "a306e71c374316e1d6ba",
-  "h": "2d01010dd43a33d92ce5"
+  "h": "2d01010dd43a33d92ce5",
+  "tx": 1795017600000
  },
  {
   "id": "2026-11-18|Aturan Eliz|BTC",
@@ -24091,13 +24093,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 698,
   "prev": "8f21cbc6b17328ad830c",
-  "h": "2ea4de1e797ade35bb44"
+  "h": "2ea4de1e797ade35bb44",
+  "tx": 1795010400000
  },
  {
   "id": "2026-11-18|Aturan Eliz|LUNC",

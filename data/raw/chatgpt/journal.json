@@ -18888,13 +18888,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, RSI divergence",
   "alert": "Senin: Monday range sedang terbentuk, harga cenderung kotor. Tunggu. Monday Low/High jadi level kunci minggu ini.",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 586,
   "prev": "e09ad1fbf13986203f8d",
-  "h": "80fd5b2370f2a34cc18f"
+  "h": "80fd5b2370f2a34cc18f",
+  "tx": 1795003200000
  },
  {
   "id": "2026-11-16|Aturan Eliz|ENA",
@@ -19533,12 +19534,13 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 614,
   "prev": "01b9f94c0639f23141a7",
-  "h": "abb3fbaadd2127d451c1"
+  "h": "abb3fbaadd2127d451c1",
+  "tx": 1795017600000
  }
 ]
