@@ -21754,7 +21754,19 @@
   "seq": 599,
   "prev": "d959337ffa7b1636d68f",
   "h": "01ee21e556c37a27a6e7",
-  "tx": 1794988800000
+  "tx": 1794988800000,
+  "bm": {
+   "e": 3906.17,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794686400000
+  },
+  "bi": {
+   "e": 3906.17,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795100400000
+  }
  },
  {
   "id": "2026-11-13|Aturan Eliz|LTC",
@@ -22483,13 +22495,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 627,
   "prev": "f33fff11d7c79de256c2",
-  "h": "fa8a486ce92541f47c43"
+  "h": "fa8a486ce92541f47c43",
+  "tx": 1795118400000,
+  "bm": {
+   "e": 293.72,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795118400000
+  },
+  "bi": {
+   "e": 293.72,
+   "h": "SL",
+   "R": -1,
+   "tx": 1794859200000
+  }
  },
  {
   "id": "2026-11-14|Aturan Eliz|XAUT",
@@ -22513,7 +22538,19 @@
   "seq": 628,
   "prev": "fa8a486ce92541f47c43",
   "h": "6512d78454ed63c0bcf8",
-  "tx": 1794988800000
+  "tx": 1794988800000,
+  "bm": {
+   "e": 3867.59,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795003200000
+  },
+  "bi": {
+   "e": 3867.59,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795122000000
+  }
  },
  {
   "id": "2026-11-14|Aturan Eliz|WLD",
@@ -24114,13 +24151,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 695,
   "prev": "9cfbc89badfb2fa67e7e",
-  "h": "2df2843dc85a0cd73735"
+  "h": "2df2843dc85a0cd73735",
+  "tx": 1795118400000
  },
  {
   "id": "2026-11-19|Eliz v2|XRP",
