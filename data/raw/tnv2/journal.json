@@ -23875,13 +23875,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, sweep Monday Low lalu reclaim, OBV divergence, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 674,
   "prev": "812d675cb673ac64f674",
-  "h": "e0b98abfcaf458f0ce90"
+  "h": "e0b98abfcaf458f0ce90",
+  "tx": 1795147200000
  },
  {
   "id": "2026-11-19|Aturan Eliz|XRP",
@@ -23921,13 +23922,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 676,
   "prev": "4d68b64304359bbdfff6",
-  "h": "f85d7c2df1bd3f127326"
+  "h": "f85d7c2df1bd3f127326",
+  "tx": 1795165200000,
+  "bm": {
+   "e": 126.54,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795104000000
+  },
+  "bi": {
+   "e": 126.54,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795100400000
+  }
  },
  {
   "id": "2026-11-19|Aturan Eliz|ZRO",
@@ -24059,13 +24073,14 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 682,
   "prev": "57c16d71d4a3682c86cb",
-  "h": "e098e0b950891cd8a3b7"
+  "h": "e098e0b950891cd8a3b7",
+  "tx": 1795172400000
  },
  {
   "id": "2026-11-19|Aturan Eliz|SUI",
@@ -24522,13 +24537,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 701,
   "prev": "ade0bc34e7693b84f2e9",
-  "h": "4ffeeb4402ed61f4a155"
+  "h": "4ffeeb4402ed61f4a155",
+  "tx": 1795161600000
  },
  {
   "id": "2026-11-20|Aturan Eliz|BTC",
@@ -24867,13 +24883,14 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 716,
   "prev": "c7dfd53467a4364cb310",
-  "h": "79f174144ebdf47720c7"
+  "h": "79f174144ebdf47720c7",
+  "tx": 1795165200000
  },
  {
   "id": "2026-11-20|Aturan Eliz|WLD",
