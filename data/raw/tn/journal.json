@@ -24119,7 +24119,19 @@
   "seq": 683,
   "prev": "7175cbf7511f7760823f",
   "h": "1f063e36c8211003985a",
-  "tx": 1795186800000
+  "tx": 1795186800000,
+  "bm": {
+   "e": 726.07,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795204800000
+  },
+  "bi": {
+   "e": 726.07,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795172400000
+  }
  },
  {
   "id": "2026-11-18|Aturan Eliz|ENA",
@@ -24730,13 +24742,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 703,
   "prev": "798cf1a753a9444894ae",
-  "h": "735103d6b89e2595203c"
+  "h": "735103d6b89e2595203c",
+  "tx": 1795201200000
  },
  {
   "id": "2026-11-19|Aturan Eliz|SKHYB",
@@ -24842,7 +24855,19 @@
   "seq": 707,
   "prev": "a263f77ec00cc80eddd1",
   "h": "9f52a8d1097035b62352",
-  "tx": 1795186800000
+  "tx": 1795186800000,
+  "bm": {
+   "e": 3.304,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795140000000
+  },
+  "bi": {
+   "e": 3.304,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795194000000
+  }
  },
  {
   "id": "2026-11-19|Aturan Eliz|XAUT",
@@ -25595,13 +25620,26 @@
   "keyakinan": "",
   "alasan": "Three Tap: 2 sentuhan lalu manipulasi di bawah, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 736,
   "prev": "20c825b64b9bacb7c399",
-  "h": "a4f43fd4b9e6e266a8b3"
+  "h": "a4f43fd4b9e6e266a8b3",
+  "tx": 1795204800000,
+  "bm": {
+   "e": 273.65,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795204800000
+  },
+  "bi": {
+   "e": 273.65,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795183200000
+  }
  },
  {
   "id": "2026-11-20|Aturan Eliz|LTC",
@@ -25759,13 +25797,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 742,
   "prev": "a521e3e0e7856cea953f",
-  "h": "62f73f9624394fbcc0b2"
+  "h": "62f73f9624394fbcc0b2",
+  "tx": 1795194660000,
+  "bm": {
+   "e": 62562.89,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795194000000
+  },
+  "bi": {
+   "e": 62562.89,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795186800000
+  }
  },
  {
   "id": "2026-11-20|Aturan Eliz|ETH",
