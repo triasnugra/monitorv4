@@ -25265,13 +25265,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 714,
   "prev": "c24ac127f5dcb78c9bfa",
-  "h": "ce042772a53289da204d"
+  "h": "ce042772a53289da204d",
+  "tx": 1795240800000,
+  "bm": {
+   "e": 0.0281,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795147200000
+  },
+  "bi": {
+   "e": 0.0281,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795186800000
+  }
  },
  {
   "id": "2026-11-19|Aturan Eliz|LINK",

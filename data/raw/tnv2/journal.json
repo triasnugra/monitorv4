@@ -24464,13 +24464,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 686,
   "prev": "2792e036d577d5c01f7b",
-  "h": "9e57c933b4e011ae5885"
+  "h": "9e57c933b4e011ae5885",
+  "tx": 1795240800000,
+  "bm": {
+   "e": 0.0279,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795147200000
+  },
+  "bi": {
+   "e": 0.0279,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795230000000
+  }
  },
  {
   "id": "2026-11-19|Aturan Eliz|LINK",
@@ -25978,13 +25991,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday Low lalu reclaim, OBV divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 745,
   "prev": "fbdfdc89b682614c9f51",
-  "h": "4453093fe8e9d35f1092"
+  "h": "4453093fe8e9d35f1092",
+  "tx": 1795269600000
  },
  {
   "id": "2026-11-21|Aturan Eliz|PROM",
