@@ -26872,13 +26872,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, Wolf: breakout trendline gagal",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 768,
   "prev": "0934553937a0110eab66",
-  "h": "1f551862314dbc7a7f56"
+  "h": "1f551862314dbc7a7f56",
+  "tx": 1795363200000,
+  "bm": {
+   "e": 4.555,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795266000000
+  },
+  "bi": {
+   "e": 4.555,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795363200000
+  }
  },
  {
   "id": "2026-11-21|Aturan Eliz|INJ",
