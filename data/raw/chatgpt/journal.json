@@ -18773,13 +18773,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, searah tren",
   "alert": "Menjelang penutupan weekly (Senin 00:00 UTC).",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": 1.24,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 572,
   "prev": "7939d1cb09d7665fdb1d",
-  "h": "fff0650de389cb938dd1"
+  "h": "fff0650de389cb938dd1",
+  "tx": 1795322695766,
+  "bm": {
+   "e": 3821.02,
+   "h": "kedaluwarsa",
+   "R": 1.047,
+   "tx": 1795322695766
+  },
+  "bi": {
+   "e": 3821.02,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795140000000
+  }
  },
  {
   "id": "2026-11-15|Aturan Eliz|ASTER",
