@@ -20492,13 +20492,26 @@
   "keyakinan": "",
   "alasan": "breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 637,
   "prev": "68b8fd59551dc8dcbd9c",
-  "h": "a60578ebbaf02ee434be"
+  "h": "a60578ebbaf02ee434be",
+  "tx": 1795442400000,
+  "bm": {
+   "e": 145,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795442400000
+  },
+  "bi": {
+   "e": 145,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795204800000
+  }
  },
  {
   "id": "2026-11-20|Aturan Eliz|BNB",
@@ -20538,13 +20551,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 639,
   "prev": "255b9b8a7a09ef495896",
-  "h": "dce43dbc5a923fb06f36"
+  "h": "dce43dbc5a923fb06f36",
+  "tx": 1795442400000,
+  "bm": {
+   "e": 0.9665,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795201200000
+  },
+  "bi": {
+   "e": 0.9665,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795186800000
+  }
  },
  {
   "id": "2026-11-20|Aturan Eliz|SPCXB",
@@ -20653,13 +20679,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 644,
   "prev": "b5ea3e97b09ec1eec10c",
-  "h": "33ef30c98094a6929216"
+  "h": "33ef30c98094a6929216",
+  "tx": 1795442400000,
+  "bm": {
+   "e": 192.4,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795186800000
+  },
+  "bi": {
+   "e": 192.4,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795147200000
+  }
  },
  {
   "id": "2026-11-20|Aturan Eliz|GOOGLB",
@@ -21566,13 +21605,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "Menjelang penutupan weekly (Senin 00:00 UTC).",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 682,
   "prev": "85b5151210560c76769c",
-  "h": "ffa4969646f68919dc05"
+  "h": "ffa4969646f68919dc05",
+  "tx": 1795442400000,
+  "bm": {
+   "e": 0.9323,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795438800000
+  },
+  "bi": {
+   "e": 0.9323,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795442400000
+  }
  },
  {
   "id": "2026-11-22|Aturan Eliz|BNB",
