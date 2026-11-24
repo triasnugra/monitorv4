@@ -25619,13 +25619,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 713,
   "prev": "f0fb9b844fc45e13a995",
-  "h": "1955284f0d8683b372d1"
+  "h": "1955284f0d8683b372d1",
+  "tx": 1795525200000,
+  "bm": {
+   "e": 8.892,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795186800000
+  },
+  "bi": {
+   "e": 8.892,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795186800000
+  }
  },
  {
   "id": "2026-11-20|Aturan Eliz|AAVE",
@@ -26137,13 +26150,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, breakdown ber-close, retest, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 731,
   "prev": "26150babd9209f8cce27",
-  "h": "253ea9ceeb477fd3aa60"
+  "h": "253ea9ceeb477fd3aa60",
+  "tx": 1795525200000,
+  "bm": {
+   "e": 8.558,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795240800000
+  },
+  "bi": {
+   "e": 8.558,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795230000000
+  }
  },
  {
   "id": "2026-11-21|Aturan Eliz|TAO",
@@ -27092,13 +27118,26 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan beli melemah, deviasi atas gagal bertahan",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 768,
   "prev": "21cb70e7eaff27a5e3c0",
-  "h": "5781eb35bd10a5b0b5ee"
+  "h": "5781eb35bd10a5b0b5ee",
+  "tx": 1795507200000,
+  "bm": {
+   "e": 0.2333,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795496400000
+  },
+  "bi": {
+   "e": 0.2333,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795496400000
+  }
  },
  {
   "id": "2026-11-24|Aturan Eliz|WLD",
