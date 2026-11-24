@@ -19416,13 +19416,26 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "tidak terisi",
+  "R": 0,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 596,
   "prev": "d1df47b6c5cbf3cb43d1",
-  "h": "3d103a2cc8196af4f442"
+  "h": "3d103a2cc8196af4f442",
+  "tx": 1795495193681,
+  "bm": {
+   "e": 664.65,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795190400000
+  },
+  "bi": {
+   "e": 664.65,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795122000000
+  }
  },
  {
   "id": "2026-11-17|Aturan Eliz|TAO",
@@ -19439,13 +19452,26 @@
   "keyakinan": "",
   "alasan": "Wolf: breakout trendline gagal, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "kedaluwarsa",
+  "R": 0.35,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 597,
   "prev": "3d103a2cc8196af4f442",
-  "h": "1e8afb698a2d66799a47"
+  "h": "1e8afb698a2d66799a47",
+  "tx": 1795495193681,
+  "bm": {
+   "e": 194.6,
+   "h": "kedaluwarsa",
+   "R": 0.197,
+   "tx": 1795495193681
+  },
+  "bi": {
+   "e": 194.6,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795230000000
+  }
  },
  {
   "id": "2026-11-18|Aturan Eliz|PEPE",
@@ -20587,13 +20613,14 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 640,
   "prev": "dce43dbc5a923fb06f36",
-  "h": "663d526fab0e9380be01"
+  "h": "663d526fab0e9380be01",
+  "tx": 1795532400000
  },
  {
   "id": "2026-11-20|Aturan Eliz|MUB",
@@ -20869,13 +20896,26 @@
   "keyakinan": "",
   "alasan": "sweep Monday High lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "dcfc14e83216c90f",
   "fwd": 1,
   "seq": 650,
   "prev": "e40139e0a88e5d832c97",
-  "h": "f584b6c7085917170fa3"
+  "h": "f584b6c7085917170fa3",
+  "tx": 1795525200000,
+  "bm": {
+   "e": 9.016,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795186800000
+  },
+  "bi": {
+   "e": 9.016,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795176000000
+  }
  },
  {
   "id": "2026-11-20|Aturan Eliz|WBTC",
