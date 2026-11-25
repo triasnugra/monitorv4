@@ -1639,5 +1639,24 @@
   "durationMs": 2868,
   "macro": null,
   "held": 0
+ },
+ {
+  "t": 1795616532907,
+  "iso": "2026-11-25T14:22:12.907Z",
+  "engine": "a6aa2848cf79ffa1a7a1218935ecb9cd99b9310b",
+  "status": "OK",
+  "coins": 40,
+  "analyzed": 39,
+  "failed": [
+   "ANTB"
+  ],
+  "setups": 17,
+  "added": 7,
+  "merged": 10,
+  "revised": 4,
+  "error": null,
+  "durationMs": 4068,
+  "macro": null,
+  "held": 0
  }
 ]
