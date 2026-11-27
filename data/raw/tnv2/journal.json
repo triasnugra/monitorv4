@@ -27772,13 +27772,26 @@
   "keyakinan": "",
   "alasan": "deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, searah tren",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "SL",
+  "R": -1,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 784,
   "prev": "429089a48fa78dfc5ab8",
-  "h": "647e72ed0e81aaada2b2"
+  "h": "647e72ed0e81aaada2b2",
+  "tx": 1795705200000,
+  "bm": {
+   "e": 780.86,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795694400000
+  },
+  "bi": {
+   "e": 780.86,
+   "h": "TP",
+   "R": 2,
+   "tx": 1795705200000
+  }
  },
  {
   "id": "2026-11-26|Aturan Eliz|NEAR",
