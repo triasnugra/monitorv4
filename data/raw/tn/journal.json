@@ -30755,13 +30755,26 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 878,
   "prev": "0d2564fda6928e82dd85",
-  "h": "e17d372a223b6eb985ac"
+  "h": "e17d372a223b6eb985ac",
+  "tx": 1795798800000,
+  "bm": {
+   "e": 35.44,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795788000000
+  },
+  "bi": {
+   "e": 35.44,
+   "h": "SL",
+   "R": -1,
+   "tx": 1795755600000
+  }
  },
  {
   "id": "2026-11-27|Aturan Eliz|XRP",

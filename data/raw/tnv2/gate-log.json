@@ -6089,5 +6089,459 @@
    "MELAWAN_BTC"
   ],
   "skor": 1
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|SOXLB",
+  "d": "2026-11-27",
+  "aset": "SOXLB",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 4
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|ONE",
+  "d": "2026-11-27",
+  "aset": "ONE",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 4
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|XRP",
+  "d": "2026-11-27",
+  "aset": "XRP",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|MMT",
+  "d": "2026-11-27",
+  "aset": "MMT",
+  "arah": "SHORT",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|SSV",
+  "d": "2026-11-27",
+  "aset": "SSV",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|INJ",
+  "d": "2026-11-27",
+  "aset": "INJ",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|KORUB",
+  "d": "2026-11-27",
+  "aset": "KORUB",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 3
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|BTC",
+  "d": "2026-11-27",
+  "aset": "BTC",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "SETUP_BASI_TP_SUDAH_TERSENTUH"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|SOL",
+  "d": "2026-11-27",
+  "aset": "SOL",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|NEAR",
+  "d": "2026-11-27",
+  "aset": "NEAR",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|BNB",
+  "d": "2026-11-27",
+  "aset": "BNB",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|WBTC",
+  "d": "2026-11-27",
+  "aset": "WBTC",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|INIT",
+  "d": "2026-11-27",
+  "aset": "INIT",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|UNI",
+  "d": "2026-11-27",
+  "aset": "UNI",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|SUI",
+  "d": "2026-11-27",
+  "aset": "SUI",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|LTC",
+  "d": "2026-11-27",
+  "aset": "LTC",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|LINK",
+  "d": "2026-11-27",
+  "aset": "LINK",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|SEI",
+  "d": "2026-11-27",
+  "aset": "SEI",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|DOGE",
+  "d": "2026-11-27",
+  "aset": "DOGE",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|ADA",
+  "d": "2026-11-27",
+  "aset": "ADA",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|XAUT",
+  "d": "2026-11-27",
+  "aset": "XAUT",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|MANTRA",
+  "d": "2026-11-27",
+  "aset": "MANTRA",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|ZRO",
+  "d": "2026-11-27",
+  "aset": "ZRO",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|AAVE",
+  "d": "2026-11-27",
+  "aset": "AAVE",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_TREN_TANPA_KONFLUENSI",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|ME",
+  "d": "2026-11-27",
+  "aset": "ME",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|BCH",
+  "d": "2026-11-27",
+  "aset": "BCH",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|WLD",
+  "d": "2026-11-27",
+  "aset": "WLD",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|FET",
+  "d": "2026-11-27",
+  "aset": "FET",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_BTC"
+  ],
+  "skor": 2
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|ETH",
+  "d": "2026-11-27",
+  "aset": "ETH",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_TREN_TANPA_KONFLUENSI",
+   "MELAWAN_BTC"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|ZEC",
+  "d": "2026-11-27",
+  "aset": "ZEC",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_TREN_TANPA_KONFLUENSI",
+   "MELAWAN_BTC"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|PEPE",
+  "d": "2026-11-27",
+  "aset": "PEPE",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "ENTRY_TERLALU_JAUH",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_TREN_TANPA_KONFLUENSI",
+   "MELAWAN_BTC"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|ENA",
+  "d": "2026-11-27",
+  "aset": "ENA",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "MELAWAN_TREN_TANPA_KONFLUENSI",
+   "MELAWAN_BTC"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|TAO",
+  "d": "2026-11-27",
+  "aset": "TAO",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "SETUP_BASI_TP_SUDAH_TERSENTUH",
+   "MELAWAN_TREN_TANPA_KONFLUENSI",
+   "MELAWAN_BTC"
+  ],
+  "skor": 1
+ },
+ {
+  "id": "2026-11-27|Aturan Eliz|PUMP",
+  "d": "2026-11-27",
+  "aset": "PUMP",
+  "arah": "LONG",
+  "v2": "TOLAK",
+  "alasan": [
+   "VOLUME_TIPIS",
+   "ENTRY_TERLALU_JAUH",
+   "MELAWAN_TREN_TANPA_KONFLUENSI",
+   "MELAWAN_BTC"
+  ],
+  "skor": 1
  }
 ]
