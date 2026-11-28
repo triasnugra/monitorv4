@@ -28621,13 +28621,14 @@
   "keyakinan": "",
   "alasan": "Double Deviation: sweep ke-2 lebih dangkal, tekanan jual melemah, deviasi bawah lalu recovery, sweep Monday Low lalu reclaim, RSI divergence",
   "alert": "",
-  "hasil": "menunggu",
-  "R": "",
+  "hasil": "TP",
+  "R": 2,
   "engine": "0537067ed55fc5be",
   "fwd": 1,
   "seq": 813,
   "prev": "6bba5077edc471d0c8bd",
-  "h": "2d269998c67c23d63ff7"
+  "h": "2d269998c67c23d63ff7",
+  "tx": 1795798800000
  },
  {
   "id": "2026-11-27|Aturan Eliz|ONE",
